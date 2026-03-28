@@ -4,11 +4,11 @@ Data Sources:
 https://docs.github.com/en/rest/search/search?apiVersion=2026-03-10#search-issues-and-pull-requests
 https://github.com/scipy/scipy/labels?page=3
 https://www.kaggle.com/datasets/coderanand/university-query-priority-classification
-https://data.stackexchange.com/stackoverflow/query/edit/1942912
+https://data.stackexchange.com/stackoverflow/query/edit/1943008
 
 Github api documentation: https://docs.github.com/en/rest/search/search?apiVersion=2026-03-10#search-issues-and-pull-requests
 
-Query i used on https://data.stackexchange.com/stackoverflow/query/edit/1942912 is below:
+Query i used on https://data.stackexchange.com/stackoverflow/query/edit/1943008 is below:
 
 <img width="251" height="203" alt="Screenshot 2026-03-28 at 1 42 13 PM" src="https://github.com/user-attachments/assets/36f8088a-76d2-478d-bc22-65b36e10d850" />
 
