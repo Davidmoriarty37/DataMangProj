@@ -1,0 +1,1001 @@
+source,raw_text
+github_scipy,CI: CodeQL Analyze (cpp) failing about 75% of the time for non-main branches
+github_scipy,"BUG: QMC Sobol' sequences may violate the (0,m,2)-net property for dimension >= 3"
+github_scipy,DOC: Intersphinx inventory not available
+github_scipy,scipy.signal.convolve misses output dimensions as in numpy.convolve
+github_scipy,CI: linalg: dev deps failing due to NumPy deprecation of generic time units
+github_scipy,BUG: ABI-breaking changes for `cython_special.bdtrik` & co in `main`
+github_scipy,BUG: The COBYLA optimizer doesn't seem to respect boundaries
+github_scipy,BUG: scipy.integrate.ode with integrator='vode' uses transposed Jacobian convention in 1.17.x
+github_scipy,ENH: recently-published Hausdorff algorithms
+github_scipy,BUG: umbrella issue for SciPy C Extension Analysis Report
+github_scipy,BLD: warnings from `lld-link` on Windows
+github_scipy,BLD: warnings from SuperLU on Windows
+github_scipy,BUG: ValueError: could not convert integer scalar when assigning values to large sparse matrices
+github_scipy,BUG: `_batched_linalg` wrapper for `linalg.solve` silently copies the matrix for C-contiguous arrays
+github_scipy,ENH: interpolate.RBFInterpolator: add Matérn kernel
+github_scipy,RFC: declaring netcdf IO functions in `scipy.io` as legacy
+github_scipy,DOC: return _RichResult is a bit strange with leading underscore
+github_scipy,DOC: `elementwise.find_root`: transforming a callable to be strictly elementwise
+github_scipy,BUG: matplotlib: The Pareto PDF from scipy doesn't match my own derivation from the docs
+github_scipy,BUG: optimize.nnls: double free crash on empty input
+github_scipy,BUG: scipy.stats.poisson_binom vectorization does not work for >64 inputs
+github_scipy,ENH: signal.sosfilt to accept multiple sos arrays
+github_scipy,BUG: scipy.stats.describe().variance is failing on boolean arrays
+github_scipy,BLD: mixed path separators in `scipy/__config__.py` on Windows
+github_scipy,ENH/BENCH: signal.oaconvolve: performance enhancements
+github_scipy,BUG: linalg TestDTypes.test_det[g] failing on 32-bit armhf
+github_scipy,BLD: meson warning for duplicate `include_directories`
+github_scipy,ENH: stats: Pearson Distribution
+github_scipy,BUG: optimize: test_linprog.py::TestLinprogHiGHSMIP::test_mip_rel_gap_passdown fails
+github_scipy,"`integrate.nquad`: `[dict([])] * depth` creates shared dict references, not independent option dicts per integration level"
+github_scipy,`integrate.quad`: missing `elif` in error-6 handler causes first validation message to be silently overwritten
+github_scipy,DOC: nan policy 'omit' doesn't work on stats.ttest_ind on cupy arrays
+github_scipy,DOC: Clarify `scipy.special.kolmogorov` docstring
+github_scipy,CI: checksum verification failing for Windows Intel OneAPI downloads
+github_scipy,BENCH: switch timing from spmatrix to sparray
+github_scipy,Tracking spmatrix deprecation progress and action items
+github_scipy,CI: cross-job cache restores have extremely low ccache hit rate
+github_scipy,BUG: `scipy.sparse.linalg.tfqmr` raises `UnboundLocalError` when `maxiter=0` and `show=True`
+github_scipy,ENH:  Add Inverse Chirp Z-Transform (ICZT) to scipy.signal
+github_scipy,BLD: having difficulties building with more modern rtools versions
+github_scipy,DOC: Inconsistent use of conda and mamba in Developer Documentation
+github_scipy,BUG: Unstable behavior of `stats.mannwhitneyu` from v1.17.0
+github_scipy,CI: linalg: `_fblasmodule.c` build failures in dev deps job
+github_scipy,CI: linalg: `TestSolve::test_structure_detection` crashing on Win-ARM64
+github_scipy,BUG: `special.lambertw` gives `nan` for -1/e
+github_scipy,BUG: 1.17 regression: `spatial.transform.Rotation.approx_equal` return type changed for 0d rotations
+github_scipy,BUG: optimize.root: minpack solvers Jacobian count is off by one
+github_scipy,BUG: FreeBSD 15.0 gfortran compiler problem
+github_scipy,BUG: `Rotation.apply` fails with read-only np array in 1.17.1
+github_scipy,MAINT/DOC: optimize.root: sparse arrays as `jac` unsupported with `hybr`
+github_scipy,BUG: Structural vulnerability in f2py version check causes name collision with scipy/signal
+github_scipy,"ENH: Include special functions for Clebsch-Gordon coefficients, also Wigner 3j/6j/9j symbols"
+github_scipy,ENH: interpolate: CuPy delegation
+github_scipy,BUG: stats.kstest: issues with `method` argument
+github_scipy,TST: sparse.linalg.aslinearoperator: add `xp_capabilities`
+github_scipy,DEV: Pixi task to update GHA hashes
+github_scipy,DOC: optimize: The convergence table for root finders is hard to understand
+github_scipy,DOC: optimize.root: inexact newton methods and the `jac` option
+github_scipy,ENH: optimize.root: add exact Newton method
+github_scipy,BUG: Non-singular matrix incorrectly flagged as singular in _multivariate.py
+github_scipy,ENH: add more extrapolate options to Bspline (and probably others)
+github_scipy,"BUG: make_splrep  with bc_type='periodic' unnecessarily requires y[-1] to equal y[0], documentation needs updating"
+github_scipy,BUG: multiple workers with the minimize function with the L-BFGS-B method doesn't work
+github_scipy,TST/CI: slow GPU tests
+github_scipy,BUG: stats.linregress: incorrect p-value and standard errors when data contains only two points
+github_scipy,BUG: `special.chdtr(c)`: edge case bugs
+github_scipy,BUG: signal._spline.sepfir2d: heap-buffer-overflow
+github_scipy,QUERY: sparse.coo_array.tocsc does not pass copy to self._coo_to_compressed
+github_scipy,BUG: LinearOperator:  multiplication with a sparse matrix returns a matrix of sparse matrices instead of the matrix-matrix multipliaction
+github_scipy,DOC: outdated links in `io.netcdf_file` API ref. page
+github_scipy,QUERY: stats.ttest_ind: trimmed t-test discrepancy with DescTools
+github_scipy,Extraneous warning message from solve_ivp
+github_scipy,TST: failures with latest CuPy release
+github_scipy,CI/DEV: Automatic PR labeller for labelling on close is not working
+github_scipy,BUG: stats.epps_singleton_2samp: `test_axis_nan_policy_full` fails due to tolerances
+github_scipy,"CI: ""No space left on device"" on cirrus GPU runner"
+github_scipy,"CI, MAINT: wheel build failures observed"
+github_scipy,BUG/ENH/DOC: linalg: `overwrite_X` params
+github_scipy,BUG: scipy versions is missing in PyPI after 1.10.1
+github_scipy,MAINT: CI failures with new `pydata/sparse` release
+github_scipy,DOC: interpolate: PchipInterpolator doesn't document what `extrapolate=None` means
+github_scipy,BUG: PPoly Instance Cannot Evaluate After Calling .extend When Given float128 x Data
+github_scipy,ENH: sparse.linalg.LinearOperator: a few ideas for further work
+github_scipy,ENH: sparse: adding `__sparse_priority__`
+github_scipy,ENH: sparse.linalg.LinearOperator: adding `__linop_priority__`
+github_scipy,"ENH: sparse.linalg.LinearOperator: split `adjoint` and `transpose`, `{c, t, ct}matmat`"
+github_scipy,"ENH: restructuring LinearOperator, merging `matvec` and `matmat`"
+github_scipy,`__config__` build dependencies entry misleading in ILP64 builds
+github_scipy,"BUG: `eigh(..., subset_by_value=...)` value-dependent breakdowns for batched inputs"
+github_scipy,BUG: optimize.minimize: COBYLA callback not called at final iteration
+github_scipy,RFC: linalg: array api support for `scipy.linalg` functions which are more fully featured versions of functions in the array API linear algebra extensoin
+github_scipy,MAINT: optimize: minpack: boolean types via `stdbool.h`?
+github_scipy,BUG: optimize.brentq: questionable results
+github_scipy,ENH: optimize: Implement ModAB Root Finding method
+github_scipy,BUG: scipy.stats.gengamma.logpdf ValueError when c < 0 and 0 in x
+github_scipy,MAINT: Remove old files?
+github_scipy,"BUG: data race in the cython code, generated for the fused function when calling the `CubicSpline` under free threading"
+github_scipy,BUG: `scipy.special.betainc` returns NaN in unexpected cases after 1.17.0 upgrade
+github_scipy,ENH: sparse.linalg.LinearOperator: empty batch support
+github_scipy,DEV: utilise `default-environment` field for Pixi tasks
+github_scipy,BUG?: median_abs_deviation(Int64) fails on <NA> input
+github_scipy,BUG: spatial.transform.Rotation.from_mrp: leaked Cython memoryview
+github_scipy,BUG: Instability in exponnorm for very small K
+github_scipy,BUG: ndimage.map_coordinates: accuracy drops significantly for multiple channel images and `reflect` mode
+github_scipy,ks_2samp outputs does not allow to easily access statistic_location and statistic_sign
+github_scipy,`TestDifferentialEvolutionSolver` failures in CI
+github_scipy,BUG: linalg.svd: break regarding C/F-contiguity
+github_scipy,BUG: `scipy.stats.poisson.ppf` becomes 5x slower in `1.17.0` than `1.16.3`
+github_scipy,ENH: Feature request: support higher-order (up to quartic) smoothing splines in make_smoothing_spline for stable second-derivative estimation
+github_scipy,DOC: Rotation.apply(vectors) is not equivalent to Rotation.as_matrix() @ vectors
+github_scipy,BUG: scipy.io._fast_matrix_market fails on Windows when temp path contains non-ASCII characters
+github_scipy,BUG: signal.savgol_filter yields wrong result when window length is even
+github_scipy,ENH: sparse.linalg.LinearOperator: initialise with `matmat` but no `matvec`
+github_scipy,DOC: Coefficient of the RK5(4)7M method of solve_ivp
+github_scipy,BUG: `linalg.sqrtm` does not issue warning on sigularity at times
+github_scipy,RFC: make dtype handling uniform across `scipy.linalg`
+github_scipy,BUG: ndimage.label does not raise exception when output cannot store largest label
+github_scipy,BUG: remez hilbert segfault
+github_scipy,TST: stats: test_qmc.py::TestPoisson::test_fill_space fails inconconsistently on Accelerate
+github_scipy,DOC: single or double backticks for function parameters?
+github_scipy,TASK:linalg: Switch to ?trsyl3 in linalg.sqrtm when LAPACK 3.11 is safe to assume
+github_scipy,DOC: stats: erratum in the formula of Negative Hypergeometric Distribution
+github_scipy,`scipy.linalg`: low-level batch support vs `numpy.linalg`
+github_scipy,`scipy-doctest` dependency missing in `pyproject.toml` and `environment.yml`
+github_scipy,BUG: mannwhitneyu returns a statistic that is insensitive of the value of 'alternative'
+github_scipy,ENH: signal: O(n^2) list modifications in _identify_ridge_lines can be reduced to O(n)
+github_scipy,BUG: optimize: residuals may be uninitalized in trlib_eigen_inverse()
+github_scipy,BUG: sparse.linalg.spsolve: Segmentation Fault in matrix computation
+github_scipy,BUG: Severe performance regression (~6x slowdown) in scipy.linalg on free-threaded Python 3.13t due to lock contention
+github_scipy,ENH: stats: implement _sf for skewnorm to improve tail precision
+github_scipy,BUG: _quat become a MemoryView of 'ndarray' object after applying pow(1)
+github_scipy,BUG: linalg/blas.py:230: No module named 'scipy.__config__'
+github_scipy,ENH: Expose `rv_continuous_frozen` and `rv_discrete_frozen` as public API for static typing
+github_scipy,BUG: optimize.ridder: Wrong implementation Ridders algorithm
+github_scipy,BUG: optimize.minimize: `trust-constr` minimization not enforcing constraint
+github_scipy,BUG: scipy.linalg.inv gives wrong results
+github_scipy,BUG: signal._peak_finding._identify_ridge_lines: lines not sorted by row number despite docstring
+github_scipy,DOC?: gotcha with functions that are not functionally pure w/ `jax_jit=True`
+github_scipy,DEV: how to run `XPBenchmark`s?
+github_scipy,BUG: Regression in 1.17.0: generate_f2py mod is called by the wrong interpreter
+github_scipy,BUG: integrate.dop: C dop implementation not calculating max initial step correctly
+github_scipy,BUG: sparse.linalg.funm_multiply_krylov: does not work with `LinearOperator`
+github_scipy,BUG: scipy.signal.zpk2tf yield incorrect results with complex-valued k and multi-dim z
+github_scipy,BUG: scipy.special.sph_harm_y returns incorrect values
+github_scipy,BUG: `scipy.signal.zpk2tf` yield incorrect results with complex/non-integer `k` and multi-dim `z`
+github_scipy,BUG: meson.build / meson.get_compiler('c') fails to properly detect a valid C compiler
+github_scipy,BUG: RigidTransform.from_matrix doesn't allow read-only arrays
+github_scipy,DOC: Adding `numpydoc_validation_checks` to Sphinx build process
+github_scipy,BUG: `sparse.linalg.expm` incorrect for some inputs since 1.17.0
+github_scipy,No documentation released for 1.16.3
+github_scipy,BUG: calculation of inverse is wrong in scipy 1.17.0
+github_scipy,BUG: `sparse.linalg.eigs` results differ in`1.17.0`
+github_scipy,BUG: linalg solve behavior change breaking downstream tests
+github_scipy,BUG: spatial: `Rotation.from_quat`: fails with read-only `np` array in 1.17.0
+github_scipy,DOC: choice of docstring validation rules and tools
+github_scipy,DOC: `format` property of `sparray` classes missing in doc
+github_scipy,BUG: linalg.solve: `overwrite_b=True` ignored in 1.17.0
+github_scipy,"DOC:Raw URL formatting & missing mobile advisory in ""JupyterLite"" section"
+github_scipy,ENH: linalg: unify memory copying strategies in C implementations
+github_scipy,BUG: sparse: Sparse array slicing (CSC Matrix) seemingly initializes dense arrays
+github_scipy,DOC: `make dist` fails because of missing marray
+github_scipy,DEP/MAINT: tidying public API tracker
+github_scipy,"DOC: stats.distributions: missing hyperlink in ""API definition"" toc"
+github_scipy,"DOC: optimize.elementwise: missing from ""API definition"" toc"
+github_scipy,Test failures with recent 0.3.30-dev OpenBLAS builds
+github_scipy,BUG: sparse.linalg.minres: residual increases when given more iterations for low rtol values
+github_scipy,DOC: optimize.milp missing mip_rel_gap value
+github_scipy,DOC: optimize: parameters not being added correctly for some functions
+github_scipy,BUG: sparse.linalg.bicg: returns a function when breakdown case is detected
+github_scipy,ENH: Potential performance improvement in linprog (HiGHS) bound processing
+github_scipy,BUG: signal: fftconvolve gives the wrong answer for 2D arrays
+github_scipy,DOC: signal: _calc_oa_lens describes in2_step as size of step for the *first* array
+github_scipy,BUG: `signal.csd`: inconsistent return dtype
+github_scipy,BUG: numerical instability in interp1d linear interpolation
+github_scipy,"DOC: The return value in the function bc(ya, yb) in integrate.solve_bvp"
+github_scipy,"BUG: io.readsav: typo ""IDENTIFICATON"""
+github_scipy,DEV/DOC: document `xp.result_type` and `xp.promote` dtype behavior
+github_scipy,DOC: linalg: incorrect comparison to `np.linalg`
+github_scipy,ENH: Make `xp_result_type` better follow expected integer to floating point promotion when `force_floating=True`
+github_scipy,BUG: Nix build fails with blas & lapack when these are built with 64 index support
+github_scipy,DOC: 1.17 API changes not mentioned in the 1.17.0rc2 release notes
+github_scipy,"ENH: interpolate: return `lam` value determined by GCV from `make_smoothing_spline(..., lam=None)`"
+github_scipy,CI: linalg: several test failures for ILP64
+github_scipy,BUG: signal.tf2zpk: memory leak via `np.roots`
+github_scipy,ENH: spatial: planar k(2)-center support
+github_scipy,"DOC: `find_peaks_cwt` docs reference `cwt`, which no longer exists"
+github_scipy,BUG: spatial: `voronoi` has internal issue with Qhull and infinite edges?
+github_scipy,BUG: integrate: odeint with float-valued func fails with numpy 2.4
+github_scipy,QUERY: stats: timedelta input
+github_scipy,ShortTimeFFT slowness
+github_scipy,BUG: `scipy.special.pro_cv_seq` aborts with some values
+github_scipy,BUG: cluster: `vq.kmeans` and `vq.kmeans2` segfaults with extreme values
+github_scipy,BUG: `import scipy.stats.sampling` raises `AttributeError` on NumPy 2.4.0
+github_scipy,"BENCH, MAINT: (sparse) asv suite compat with NumPy 2.4.0"
+github_scipy,"BUG: ndimage: uninitialized variable ""icoor"" in NI_GeometricTransform"
+github_scipy,RFC: Should Dask support remain a priority?
+github_scipy,BUG: optimize.shgo: identical branches in sampling_custom
+github_scipy,ENH: spatial.transform.Rotation: I discovered a method to bypass atan2 in rotation
+github_scipy,RFC: How should `xp_capabilities` work and be used for classes?
+github_scipy,Bounds Correct Type Annotation
+github_scipy,"BUG: optimize `minimize(..., method=""BFGS"")` float32 behaviour incorrect"
+github_scipy,BUG: Segmentation fault for BSpline basis_element constructed with internal knots of length 1
+github_scipy,ENH: place_poles function for State-Space observer
+github_scipy,MAINT:optimize: Add license details of optimize solvers
+github_scipy,BUG: sparse.linalg.expm_multiply: nondeterminism
+github_scipy,"ENH: spatial: New syntax for composing shape (..., 3) arrays representing translations with Rotations and RigidTransforms"
+github_scipy,BUG: array types: `torch.asarray` removes `requires_grad` from torch tensors
+github_scipy,BUG: Core dump in B-spline interpolation derivatives if order is high enough
+github_scipy,BUG: sparse.linalg.spilu does not drop entries less than tolerance
+github_scipy,DOC: Mention that the Generalized Normal Distribution is also known as the generalized error distribution
+github_scipy,Build warnings with g++ 14 on linux in a conda env
+github_scipy,"TST, CI: _lib/tests/test_import_cycles.py::test_public_modules_importable failure on Windows-ARM"
+github_scipy,BUG: Inconsistent rounding behavior in scipy.ndimage.map_coordinates
+github_scipy,MAINT: lint: fix failures following bump to Python 3.12
+github_scipy,DOC: 1.17 API changes not mentioned in the 1.17.0rc1 release notes
+github_scipy,ENH: spatial.transform: True Divide for `RigidTransform` and `Rotation`
+github_scipy,ENH: linalg: consistent support for zero-size batch
+github_scipy,CI/DEV: consider adding `actionlint` to lint suite
+github_scipy,BUG: `milp` solver claims optimality but returns an infeasible solution
+github_scipy,BUG: signal: filtfilt causes TypeError: can't multiply sequence by non-int of type 'float'
+github_scipy,BUG: `1.17.0rc1`: ModuleNotFoundError: No module named 'scipy.integrate._lsoda'
+github_scipy,MAINT: wheel build/upload failures
+github_scipy,BUG: <Please write a comprehensive title after the 'BUG: ' prefix>
+github_scipy,ENH: stats: conditional dependence coefficient (CODEC)
+github_scipy,ENH: Improve the Numerical Stability of BiCGStab
+github_scipy,BUG: special: wofz gives wrong result around the negative y axis?
+github_scipy,BUG: optimize: trust-constr with feasible x0 and fixed parameter loops 120 iters without changing x (only 1 function eval)
+github_scipy,BUG: spatial: `ConvexHull.equations` contains exact duplicate inequalities
+github_scipy,ENH: stats/special: Implement Tracy-Widom distribution
+github_scipy,BUG: specal: assoc_legendre_p incorrectly normalized at endpoints
+github_scipy,"BUG: TestVectorNorms is to strict for AOCL-BLAS, but accepts worse results"
+github_scipy,DOC: Mistake in scipy.special.airy documentation
+github_scipy,BUG: Test suite failures on ppc64
+github_scipy,ENH: spatial.transform: Add `normalize` argument to `Rotation.from_matrix`
+github_scipy,BUG: _lib: ccallback fails inside _import_cffi with AttributeError when used concurrently
+github_scipy,ENH: Random Symplectic Unitariy matrices
+github_scipy,BUG: interpolate: `RectBivariateSpline.partial_derivative` rejects valid x-derivative orders when `kx > ky`
+github_scipy,BUG: io.hb_write: crashes on sparse matrices with zero stored entries
+github_scipy,BUG: `test_axis_nan_policy_fast` is flaky on scipy-release
+github_scipy,"BUG: Regions in parameter space (a, b, x) where special.betainc returns bad values"
+github_scipy,ENH: interpolate: add ability to store simplices in LinearNDInterpolator
+github_scipy,BUG: `scipy.cluster.vq.kmeans` returns a distortion value from a different iteration than the final centroids
+github_scipy,DOC: odr: output.eps > explain that `eps = f(xi + delta) - yi`
+github_scipy,BUG: `PPoly.roots` crashes with “Internal error in root finding” for valid cubic spline (zero function)
+github_scipy,CI: TypeError: Multiple namespaces for array inputs
+github_scipy,RFC: Should we have a 'needs-release-note-decision' tag?
+github_scipy,TST: stats: TestStudentT.test_moments_t failure
+github_scipy,DEV: switch from `dtach` to `tach`
+github_scipy,DOC: py:obj reference target not found: warnings in main
+github_scipy,BUG: stats: `theilslopes()` modifies the input if pandas DataFrame used
+github_scipy,BUG: optimize.root: Possibly incorrect armijo line search with quasi-newton methods
+github_scipy,ENH: optimize: Allow concurrent use of COBYQA minimizer
+github_scipy,BUG/DOC: Docstring rewriting in `xp_capabilities` can break intersphinx references
+github_scipy,BUG: Legendre functions of the second kind in scipy.special are not defined correctly with argument > 1
+github_scipy,BUG: stats: Landau Distribution does not match ROOT
+github_scipy,BUG: linalg.lstsq: zgemv segfaults when run in parallel
+github_scipy,BUG/TST: cluster: Occasional failure of a couple tests in `cluster`
+github_scipy,Query: import errors with Cython 3.2.0
+github_scipy,TST: linalg.blas.dnrm2: xfailed test for `incx=-1`
+github_scipy,CI: special/stats: failures for `sf_error` and `MatrixT` on NumPy dev/pre jobs
+github_scipy,BUG: stats: Multivariate distributions `pdf` and `cdf` functions don't check input size
+github_scipy,"BUG: MacOS 26.1 dos not have an ""Accelerate"" folder under /System/Library/Frameworks/Accelerate.framework/Versions/A"
+github_scipy,DOC: interpolate: griddata should document that triangulation is ambiguous on rectilinear data
+github_scipy,"CI: hang in windows job, OpenMP clash"
+github_scipy,BUG: The welch function calculates spectra twice for no apparent reason.
+github_scipy,BUG: special: Spherical bessel functions error on bool input
+github_scipy,DOC:  ndimage.convolve: `origin` used confusingly
+github_scipy,BUG: optimize.shgo: ignores minimizer_kwargs options dictionary
+github_scipy,BUG: `obl_cv_seq` crashes with `free(): invalid size` after returning results (memory corruption)
+github_scipy,ENH: stats.pointbiserialr: replace implementation
+github_scipy,ENH: special: functions should accept Python scalars with non-NumPy arrays
+github_scipy,ENH: optimize.curve_fit: extend to non-Gaussian noise models
+github_scipy,"CI: Prerelease, mypy, and freethreaded jobs failing due to Pythran error: `KeyError: 'sep'`"
+github_scipy,BENCH: interpolate: Benchmark failure inside `interpolate.RegularGridInterpolatorSubclass.time_rgi`
+github_scipy,BUG: stats: anderson(dist=’norm’) tabulated critical values don’t match significance levels
+github_scipy,QUERY: Cannot build from source due `openblas-devel` not providing pkg-config files on Fedora Rawhide
+github_scipy,"DOC: special: How are ""Even/odd modified Mathieu function of the first/second kind and its derivative"" being defined in scipy.special?"
+github_scipy,BUG: optimize: `minimize(... method='BFGS')` float32 behaviour is not consistent
+github_scipy,ENH: stats: frequency weights for `gaussian_kde`
+github_scipy,"CI: mypy and clang jobs failing with ""unused function"" error during compilation"
+github_scipy,BUG: stats.relfreq: relative frequencies do not sum to 1 when `weights` is used
+github_scipy,BUG: odr: Implicit ODR causes segmentation fault when `ODR.beta0.size > Data.x.size`.
+github_scipy,"DOC: Invalid documentation of parameter ""shape"" of the ""scipy.sparse. random_array"" function"
+github_scipy,version too old via `apt-get`
+github_scipy,TST: integrate: free-threaded failure in `test_odeint_banded_jac`
+github_scipy,BUG: optimize: _wrap_callback function can trigger a NameError on Python 3.14 in edge cases due to PEP 649/749
+github_scipy,TST: stats: free-threaded failure in `test_non_finite_inputs_and_int_bins`
+github_scipy,"ENH: Add ""norm"" parameter to `RBFInterpolator` (analogous to ""norm"" in `Rbf`)"
+github_scipy,BLD: dropping manylinux2014 wheels
+github_scipy,BUG: stats: `KstestResult.pvalue` fails static type checking
+github_scipy,QUERY: optimize.least_squares: Issues choosing the right `diff_step`
+github_scipy,"TST: signal.bessel: TestBessel ""Shapes do not match"" failures in mypy workflow"
+github_scipy,ENH: stats: Implement marginal distributions for multivariate probability distributions
+github_scipy,DOC: batched `linalg.orth` and `linalg.null_space` assumes all slices have the same rank
+github_scipy,DOC: interpolate.make_interp_spline: tutorial for replicating legacy extrapolation options
+github_scipy,DOC: cluster: move linkage matrix explanation
+github_scipy,BUG: signal: find_peaks doesn't detect peaks
+github_scipy,BUG: `spatial` test fail
+github_scipy,DOC: RigidTransform.as_components doc is incorrect
+github_scipy,BUG: stats: docstrings of several discrete distr. methods show unsupported 'scale' parameter
+github_scipy,"BUG: `special.comb(0, 0, repetition=False) == 0` , not 1"
+github_scipy,"TST, MAINT: boxcox_llf failing again"
+github_scipy,Error download scipy version 1.16.2
+github_scipy,BUG: interpolate: LinearNDInterpolator slow for large thread counts
+github_scipy,BUG/TST: stats: New XSLOW failures in stats
+github_scipy,DEV: add useful tasks/environments to Pixi workspace
+github_scipy,DOC: denominator in scipy.stats.kstatvar for var(k2)
+github_scipy,Wheels for next release
+github_scipy,BUG: linalg: GIL re-enabled when importing `scipy.linalg` on the macOS arm64 conda-forge build
+github_scipy,DOC: Broadcasting in `stats.quantile`
+github_scipy,`test_multivariate` and `test_exponential_integral` failures on a fresh macOS M4 Homebrew-based env
+github_scipy,"BUG: sparse: Using the `!=` operator forces CSR conversion, which can be bad for performance"
+github_scipy,"TST: Missing tests for `mathieu_even_coef`, `mathieu_odd_coef`"
+github_scipy,"MAINT, TST: optimize test_input_validation torch failure"
+github_scipy,ENH: sparse.linalg.minres: support complex hermitian matrices
+github_scipy,BUG: Intel oneAPI stops/fails during post cache install
+github_scipy,Review scipy-release repo
+github_scipy,"BUG: wasserstein_distance raises unexpectedly ""ValueError: object too deep for desired array"""
+github_scipy,"BUG: special: sph_harm_y returns (0+0j) for valid l, m, theta, phi (SciPy 1.16.2)"
+github_scipy,"BUG: make_splrep function parameter ""s"" should be typed as float"
+github_scipy,Tracking issue: Stable ABI support
+github_scipy,"DOC: ndimage.convolve ""weights"" parameter is ambiguously documented"
+github_scipy,BUG: sparse: `check_format` does not check for out of bounds `.data` size for csr matrices
+github_scipy,ENH: multiple vectors input to RegularGridInterpolator.__call__
+github_scipy,ENH: Improve performance of converting csc arrays to csr arrays by avoiding copies when indptr and indices are already the correct dtype
+github_scipy,ENH: linalg: close performance gaps vs `np.linalg`
+github_scipy,"BUG: sparse: cs{cr}_{array,matrix}’s `sum(axis=0|1)` doesn’t interpret `dtype` as it should"
+github_scipy,BUG: scipy.odr.ODR Segmentation Fault with job=1 and Explicit Models
+github_scipy,ENH: interpolate.RegularGridInterpolator: `eliminate_zeros()` would make fit faster
+github_scipy,"BUG: interpolate.RBFInterpolator: numerically unstable when two y points are very close, leading to extreme errors"
+github_scipy,DOC/DX: `spin ipython --help` missing required use of `--` to pass args to ipython
+github_scipy,DOC: Website flaky the last few days
+github_scipy,"DOC: Documenation Site Not Loading (Also, Just Trying to Figure Out if I Can Use Minimize with a Function that Has One Variable But Multiple Other Inputs as Constants"
+github_scipy,Tracker: Array API support in `scipy.interpolate`
+github_scipy,TST: signal: Add better isolation to alternative backend tests for signal.
+github_scipy,BUG: scipy.sparse.linalg.lsmr() uninitialised variable if maxiter=0 and show=True
+github_scipy,BUG/RFC: signal: inconsistent output dtypes for filter functions with torch backend and float32 default dtype and what should be done about it.
+github_scipy,QUERY: Fitting 4 parameters beta distribution leads to unexpected parameters
+github_scipy,"BUG: `special.expi(inf)` is `nan`, should be `inf`"
+github_scipy,BUG: interpolate: RBFInterpolator gets twice faster with `OPENBLAS_NUM_THREADS=1`
+github_scipy,QUERY: optimize.fmin_slsqp: constraints are being ignored
+github_scipy,QUERY: Problem when installing with MSYS2 toolchain
+github_scipy,TST: test_as_euler_symmetric_axes tol with torch
+github_scipy,BUG: integrate: benchmark integrate.CubatureOscillatory.time_plain timeout
+github_scipy,TST: `FAILED scipy/linalg/tests/test_matfuncs.py::TestLogM::test_no_ZeroDivisionError`
+github_scipy,BUG: `stats/tests/test_axis_nan_policy.py::test_axis_nan_policy_axis_is_None`
+github_scipy,BUG: `signal/tests/test_short_time_fft.py::test_closest_STFT_dual_window_roundtrip`
+github_scipy,TST: `FAILED scipy/stats/tests/test_continuous.py::TestDistributions::test_funcs[logcdf-methods10-x-Binomial]`
+github_scipy,TST: FAILED scipy/interpolate/tests/test_bary_rational.py::TestAAA::test_spiral_cleanup
+github_scipy,DOC: optimize: typo in LinearConstraint docs
+github_scipy,DOC: special: second parameter in the `factorialk` docstring is mislabeled
+github_scipy,CI: pyparsing 3.3.0a1 deprecation warnings
+github_scipy,BUG: optimize: COBYLA fails with a combination of fixed bounds and linear or nonlinear constriants
+github_scipy,"CI: optimize: ""UserWarning: 'where' used without 'out'"" error causes ""mypy (py3.11) & dev deps (py3.14), fast, spin (3.14-dev, false)"" job to fail"
+github_scipy,BUG: Hang in scipy 1.16.2 on macOS x86_64 in scipy.sparse.linalg.eigsh when called after fork
+github_scipy,BUG: `find_peaks_cwt` sometimes finds troughs in addition to peaks
+github_scipy,DOC: `BSpline.derivative` returns an invalid `BSpline` control point array
+github_scipy,BUG: stats: custom distribution generated from `zipfian` has problem at support endpoint
+github_scipy,Parallelization of `eig(h)`
+github_scipy,hilbert2 tests skipped until CuPy bugfix is released
+github_scipy,BUG: `xp_promote` and `xp_result_type` are slow for big tensors because `iter` is slow for tensors
+github_scipy,BUG: `cobyqa` reports `success` status when `callback` raises `StopIteration`
+github_scipy,BUG: integrate: `solve_ivp()` provides non C-contiguous Y array when calling user function when method='Radau'
+github_scipy,BUG: `scipy.linalg.solve` raises `ValueError` with batched inputs when `b` is a 1-D array
+github_scipy,BUG:  `scipy.sparse.linalg.norm` returns `numpy.int64` instead of `float` or `ndarray`
+github_scipy,ENH: Allow scipy.stats.powerlaw to be defined over arbitrary domains
+github_scipy,BUG: sparse: `csc_array.setdiag()` makes indices unsorted without setting has_sorted_indices to False
+github_scipy,"CI: meson setup fails with ""invalid int value: 'Sentinel.UNSET'"""
+github_scipy,BUG: `eigh_tridiagonal` doesn't yield correct results under sign inversion of Laplacian
+github_scipy,BUG: optimize: incorrect termination criteria in minpack LMSTR?
+github_scipy,BUG: `scipy.linalg.solve` is different depending on OS/architecture
+github_scipy,CI: figure out plans for lock file updates
+github_scipy,BUG: stats.multivariate_normal: produces different result with the same seed
+github_scipy,BUG: optimize: crash in win-arm64 CI job in `optimize.root(method='lm')`
+github_scipy,CI: benchmark job on CircleCI broken due to asv 0.6.5 release
+github_scipy,DOC: Being clear about the distribution of `scipy.spatial.transform.Rotation.random()`
+github_scipy,BUG: COO sparse array does not save/load correctly for >2D
+github_scipy,"BUG: ´find_peaks_cwt´: Bad signal estimate hurts SNR, quality of output"
+github_scipy,TST: adapt to NumPy warning change (mean of empty slice)
+github_scipy,ENH: spatial: add an equivalent to MATLAB's inpolygon
+github_scipy,DOC: wrong version for stats.f_oneway's equal_var parameter
+github_scipy,BUG: io.netcdf_file: 32 bit int used instead of 64 bit
+github_scipy,DOC: spmatrix argument to scipy.io.loadmat
+github_scipy,"BUG: `lqmn(1,1,0)` and  `lqmn(1,1,0j)` return incompatible derivatives"
+github_scipy,DOC: Selected text in version dropdown not compatible with dark mode
+github_scipy,ENH: spatial.transform.Rotation.align_vectors add a flag to automatically normalize the input vectors to unit length
+github_scipy,`xp_capabilities` needs a proper documentation
+github_scipy,BUG: `xp_capabilities` adds empty lines to docstrings
+github_scipy,ENH: spatial.transform.Rotation.align_vectors: add scale and translation factors
+github_scipy,BUG: sparse.csgraph.reconstruct_path: segfault for `nan` `predecessors`
+github_scipy,ENH: sparse: improve performance of broadcasted binary operations
+github_scipy,ENH: consistent callback signatures across scipy.optimize.minimize methods
+github_scipy,MAINT: spatial.transform.Rotation: `from_euler/from_davenport` shape consistency
+github_scipy,CI: macOS conda-forge job failing because of scikit-umfpack upgrade
+github_scipy,BUG: barycentric_interpolate with complex and object array containing timedelta64 causes SystemError
+github_scipy,BUG:  `squareform` with `dtype=object` array containing `np.float64` causes segmentation fault
+github_scipy,DOC: stats: A reference in the `fligner` docstring occurs twice.
+github_scipy,BUG: deconvolve with empty divisor or signal arrays causes inconsistent errors
+github_scipy,BUG: lfilter with empty a array can trigger misleading error or undefined behavior
+github_scipy,BUG: scipy.sparse.csgraph.yen crashes with out-of-bounds source index
+github_scipy,BUG: scipy.spatial.distance.sokalsneath crashes with StringDType input
+github_scipy,"BUG: stats.levene: test results are incorrect when `center=""trimmed""`"
+github_scipy,BUG: linalg.norm: Inconsistent return type compared to NumPy
+github_scipy,Should binary_closing support float16? Inconsistent behavior with float32/float64
+github_scipy,BUG: special: logsumexp(inf) sign is NaN starting in v1.16
+github_scipy,BUG: linalg.lapack: Segmentation Faults and Memory Errors
+github_scipy,BUG: interpolate.spalde: segfault when k is too large or tck is invalid
+github_scipy,BUG: scipy.interpolate.insert segfaults on invalid input type
+github_scipy,BUG: interpolate: Internal error from `fpknot` while running `make_splprep`
+github_scipy,DOC/DEV: Document how `scipy.signal` calls functions from `cupyx.scipy` during CI
+github_scipy,ENH: Will RBFInterpolator support 3D or higher dimensional data interpolation in the future?
+github_scipy,BUG: Hangs and failures on windows with non-AVX512 CPUs in conda-forge
+github_scipy,"MAINT: Replace deprecated usage of numpy array shape, dtype and strides setting"
+github_scipy,BUG: signal: `invres()` failing dramatically when converting filter designed by scikit-rf
+github_scipy,SHGO: issue passing args to objective function
+github_scipy,DOC: SLSQP - different sign convention of Lagrange multiplier
+github_scipy,ENH: improve fitting of scipy.stats distributions using appropriate bounds and constraints
+github_scipy,DOC: add LFX Insights badge to README
+github_scipy,BUG: NdBSpline segfaults for too high derivative orders
+github_scipy,BUG: optimize: new COBYLA implementation ~30x slower execution
+github_scipy,DEV: The `CODEOWNERS` contain files and directories which have been renamed
+github_scipy,BUG: stats.hypergeom: `rvs()` fails for N = 0
+github_scipy,BUG: stats: `trapezoid.fit()` doesn't converge
+github_scipy,ENH: Replace references to AS by references to digital library of mathematical functions
+github_scipy,ENH: zipfian.rvs is slow for certain argument values
+github_scipy,"DOC: optimize.differential_evolution: Clarify trial vector recombination - fill_point index is random, not fixed to last parameter"
+github_scipy,ENH: Slight inaccuracy in lfilter_zi gives different result of filtfilt
+github_scipy,DOC: The file `scipy/_lib/_lazy_testing.py` has been removed
+github_scipy,BUG: signal.lombscargle(precenter=True) modifies input array on 1.15+
+github_scipy,ENH: interpolate.make_smoothing_spline: `_compute_optimal_gcv_parameter` goes wrong
+github_scipy,BUG: huge speed and quality regression for stats.multivariate_normal.cdf
+github_scipy,ENH: Add covariance and error methods to `normal` and similar models
+github_scipy,BUG: sparse: load_npz fails for coo_arry with dim>2
+github_scipy,BUG: optimize: PRIMA implementation of COBYLA returns solutions closer than `tol` parameter
+github_scipy,DEV: spin `cpu_count` check is not robust
+github_scipy,CI: CUDA compilation failures for all cupy tests
+github_scipy,"BUG: ndimage measurements.py find_objects(input, max_label) not compatible with numpy 2.3.0"
+github_scipy,"ENH: special: `hyp2f1(a, b, c, z)` implementation for complex arguments (a, b)"
+github_scipy,DOC/ENH: signal.get_window: different default for symmetric/periodic than individual window functions
+github_scipy,CI: _lib: `test_pyyaml_not_found` not automatically detected as thread-unsafe
+github_scipy,DOC: <Please write a comprehensive title after the 'DOC: ' prefix>
+github_scipy,DOC: signal.convolve2d: document that kernel is rotated
+github_scipy,ENH: Vectorized spline interpolation for both x and y
+github_scipy,DOC/DX: `spin docs` doesn't incrementally rebuild docstrings from extension modules
+github_scipy,ENH: spatial.transform: Add broadcasting support
+github_scipy,DOC: interpolate.RbfInterpolator: incorrect equation in Notes
+github_scipy,BUG: optimize: missing error checking for slsqp inputs
+github_scipy,BUG: optimize.nnls: memory leak
+github_scipy,Incomplete license terms for sub components since version 1.16.0 (COPYING.txt for component qhull is missing)
+github_scipy,CI: new BLAS tests ci jobs don't respect ci skips
+github_scipy,BUG: Discrete time TransferFunction objects calculate wrong phase response in recursive filters due to internal function bugs
+github_scipy,BUG: scipy.signal.square ignores input dtype due to incorrect dtype check
+github_scipy,"BUG: Error constructing sparse matrix with indices larger than 32 bits from smaller matrices, using sparse.block_diag()"
+github_scipy,BUG: stats: scipy 1.16 causes a large speed regression in mwaskom/seaborn `tests/test_statistics.py::TestKDE::test_bivariate_cumulative`
+github_scipy,TST: stats: `marray` tests failing with latest array-api-strict
+github_scipy,BUG: signal.periodogram: memory leak
+github_scipy,BUG: stats.qmc.Sobol: stuck in infinite loop in low_0_bit after generating 2**32 samples
+github_scipy,ENH: stats.kendall_tau: MergeSort to achieve O(n log n) complexity
+github_scipy,BUG: stats.pmean: bad numerical behavior for small but finite p
+github_scipy,ENH: spatial.geometric_slerp: allow for extrapolation
+github_scipy,DOC: array API support table follow ups
+github_scipy,BUG: Typing mismatch: allow None for fill_value in RegularGridInterpolator
+github_scipy,BUG: interpolate: `test_bispev_integer_overflow` crashes for ILP64 build on macOS
+github_scipy,ENH: spatial.transform: array API standard support tracker
+github_scipy,BUG: stats.sampling: segfault in various classes on osx-arm64
+github_scipy,Why does `special_cyl_bessel_k_int` (and therefore `scipy.special.kn`) use `cyl_bessel_k` and not `cephes::kn`?
+github_scipy,DOC/DEV: correct editable install `spin` guidance
+github_scipy,"BUG: setting with `sparse.xxx_{matrix,array}` 2D singleton"
+github_scipy,CI: Enable GitHub Actions CI for ppc64le (Power architecture) support
+github_scipy,QUERY: avoid explicit `expm(A)` computation when all you need `expm(A) @ v`
+github_scipy,BUG: Possible Issue with class RectBivariateSpline(BivariateSpline) in the _fitpack2.py
+github_scipy,QUERY: interpolate: Are tck and degrees part of BivariateSpline's public API?
+github_scipy,BUG: signal.windows.taylor: output is NaN for nbar >= 2
+github_scipy,BUG: (interpolate) _dierckx.data_matrix gives ValueError if input arrays are not C contiguous
+github_scipy,DOC: interpolate: NearestNDInterpolator works with multi-dimensional arrays but docs suggest otherwise
+github_scipy,DOC: interpolate: add a demo for the connection between spline coefficients and control points
+github_scipy,BUG: special: hyp1f1 hangs with some arguments
+github_scipy,BUG: issue building with gfortran on macOS
+github_scipy,BUG: stats: ppf of 0 returns a value outside the distribution support
+github_scipy,DOC: interpolate: RegularGridInterpolator with cubic interpolation : discuss `solver_options` better
+github_scipy,Chatterjee's Xi returns different results based on `numpy` major version
+github_scipy,DOC: Confusing name for scipy.spatial.distance.is_valid_dm
+github_scipy,DOC: spatial.is_valid_dm: misleading documentation
+github_scipy,ENH: linalg: Follow-up tasks for ILP64 support
+github_scipy,DOC/MAINT: sparse.linalg.onenormest: fails confusingly for LinearOperator with no `rmatmat` or adjoint
+github_scipy,DOC: Incorrect dimension of PPoly.c in docstring
+github_scipy,CircleCI benchmarks job requires `hypothesis`
+github_scipy,DOC: consider documenting Homebrew gfortran workaround
+github_scipy,DOC: optimize.minimize: erroneously claims COBYLA doesn't support equality constraints
+github_scipy,BUG: scipy.linalg.sqrtm incorrect on complex matrix on v1.16
+github_scipy,BUG: linalg: wrong handling of args/kwargs in `_apply_over_batch`
+github_scipy,DEV: `spin lint`: use `sys.executable` always
+github_scipy,BUG: sparse.linalg.splu: segmentation fault (SIGSEGV) for Pajek/GD99_c matrix with `permc_spec='NATURAL'`
+github_scipy,BUG: special.kv: incorrect translation of AMOS Fortran code resulting in incorrect/NaN outputs
+github_scipy,BUG: Compilation failure in HiGHs with MSVC
+github_scipy,Delaunay find_simplex unexpected behavior
+github_scipy,BUG: CSC matrix multiplication and indptrs
+github_scipy,ENH: Switching from `pocketfft` to `ducc0.fft`
+github_scipy,ENH: special: make `sph_harm_y` available to `cython`
+github_scipy,RFC: sparse.linalg: batching and array types support
+github_scipy,BUG: regression on Windows after ARPACK rewrite
+github_scipy,BUG: spatial.transform.Rotation: Warning Inconsistency
+github_scipy,BUG/TST: `spatial` test failure
+github_scipy,BUG: free-threading: functionality based on multiprocessing.Pool / threading.Pool deadlocks
+github_scipy,BUG [nightly]: spatial.transform.Rotation.from_quat: fails for float32 inputs
+github_scipy,DEV: add `spin jupyterlab`
+github_scipy,ENH: Support eigendecomposition of 2x2 & 3x3 symmetric matrices via explicit formulas
+github_scipy,BUG: optimize.least_squares: worse results for since v1.16.0
+github_scipy,BUG: linalg.sqrtm: incorrect results in 1.16.0 when at least one isolated diagonal element and complex
+github_scipy,BUG: signal.freqz: erroneously returns complex-valued frequencies
+github_scipy,BUG: linalg.interpolative.reconstruct_matrix_from_id: segfault for invalid arguments
+github_scipy,BUG: spatial.Voronoi: qhull internal error (qh_order_vertexneighbors): no neighbor of v4 for f39
+github_scipy,BUG: signal.welch: artificially introduces DC component due to order of detrend and windowing
+github_scipy,DOC: stats.wasserstein_distance: disagrees with linked article
+github_scipy,BUG/TST: `differentiate` `test_dtype` fails with `float16` on Intel Sapphire Rapids
+github_scipy,ENH: spatial: triangulation class from predefined simplices
+github_scipy,BUG: \scipy\_lib\_util.py fails tests and functions can't be imported
+github_scipy,ENH: Return NotImplemented when scipy.spatial.transform.Rotation.__mul__ cannot deal with the type of other.
+github_scipy,Grammar correction
+github_scipy,RFC: stats.spearmanr: interface adjustment to enable array API support
+github_scipy,DOC: Breadcrumbs missing and sidebar different in API reference docs for modules marked with `:orphan:` flag
+github_scipy,BUG: AttributeError: 'BooleanArray' object has no attribute 'nonzero' when running sc.pp.calculate_qc_metrics()
+github_scipy,DOC: Fix bug in release notes for scipy v1.12.0
+github_scipy,"BLD: build process stops early with ""numpy-config found: NO"""
+github_scipy,ENH: Parallel optimization of batch of parameters (and potentially functions)
+github_scipy,ENH: signal: numerically stable sos2ss and zpk2ss conversions (request for feedback)
+github_scipy,BUG: softmax outputs nan for inputs containing inf.
+github_scipy,BUG: signal.tf2sos: `ComplexWarning`
+github_scipy,BUG: linalg.lstsq: SVD did not converge
+github_scipy,BUG: linalg.svdvals: Segmentation fault
+github_scipy,"BUG: stats.beta.entropy: doesn't work with array-valued a, b"
+github_scipy,BUG: `@_transition_to_rng` leads to inconsistent function signatures
+github_scipy,BUG: optimize.direct: memory leak while returning from user function
+github_scipy,ENH: sparse: access to `csr_sample_values`
+github_scipy,DOC: Missing docstrings for some warnings in scipy.io
+github_scipy,BUG/TST: stats: XSLOW test failures of `ttest_ind`
+github_scipy,TestMedFilt::test_odd_strides is failing on deprecation in numpy 2.4.0-dev0
+github_scipy,BUG: stats.norminvgauss: cdf becomes inaccurate in far right tail
+github_scipy,BUG: New backend for interpolative decomposition breaks for (1xn) matrices
+github_scipy,DOC/DEP: special.sph_harm: improve deprecation message guidance
+github_scipy,BUG: Slow function call in `scipy.optimize.minimize` with `L-BFGS-B` since `scipy>=1.15.0`  on Ubuntu
+github_scipy,BUG: scipy.optimize minimize routine does not show info logs related to optimisation with `display:True`
+github_scipy,BUG: io.matlab: two `TestZlibInputStream` failures for Python 3.14 on Windows
+github_scipy,BUG: min Python version enforcement in 1.16.x series? (and main)
+github_scipy,MAINT: array-api-strict compatibility on 1.16.0 release branch
+github_scipy,BUG: `stats`: regression in JAX 0.6.2
+github_scipy,"RecursionError in corner case test of `stats.sampling.FastGeneratorInversion` (py314, musllinux aarch64)"
+github_scipy,BUG: `interpolate.RegularGridInterpolator` fails on a 2D grid with a single point.
+github_scipy,BUG: special.betainc: evaluates incorrectly to nan when `b=0`
+github_scipy,ENH: `special.comb`: implement for input arrays when `exact=True`
+github_scipy,BENCH/DEV: `spin bench` option `--quick` is useless (always active)
+github_scipy,DEV/DOC: segfault from `spin docs` on macOS with venv
+github_scipy,BUG: sparse.linalg.eigs: random incorrect outputs generated
+github_scipy,BUG: optimize: worse behaviour of new L-BFGS-B implementation
+github_scipy,DOC: signal.medfilt: remove outdated note
+github_scipy,BUG: optimize.shgo: unbounded cache in Complex.split_edge
+github_scipy,ENH: linalg: Polynomial eigenvalue problem
+github_scipy,ENH: stats: `_put_val_to_limits` - accept `lower_limit` tuple
+github_scipy,DOC: fft: tutorial example improvements
+github_scipy,ENH: linalg: randomized svd and eigh decomposition (faster but approximate)
+github_scipy,BUG: sparse.csgraph.connected_components: unexpected results for bsr arrays
+github_scipy,"ENH: `linalg.{inv, solve}`: follow-up improvements to low-level ND support"
+github_scipy,DEV/DOC: `spin docs` fails
+github_scipy,ENH: optimize.find_minimum: preserve shape of scalar-valued functions?
+github_scipy,DEV/DOC: update vendored code pages for `_lib.decorator`
+github_scipy,ENH: optimize: minimize for discrete scalar unimodal functions
+github_scipy,CI: (re-)adopt `(d)tach` for modularity enforcement
+github_scipy,BUG: `UserWarning` due to `spin build`
+github_scipy,BUG: stats.pmean: wrong value for infinite orders
+github_scipy,BUG: spatial.distance.cdist: wrong result in Yule metric
+github_scipy,BUG: Scipy stft is not consistent with torchadio Spectrogram
+github_scipy,DOC: Undocumented `dtype` change with `sp.sparse.csr_array(sp.sparse.spdiags(...))` vs. `sp.sparse.diags_array(...)`
+github_scipy,BUG: special: Discontinuity in associated Legendre functions
+github_scipy,BUG: Sum of squares convergence error on valid data
+github_scipy,"ENH: Stochastic Resonance & Information-Theoretic Analysis for Discrete Dynamical Systems (e.g., Collatz sequence)"
+github_scipy,CircleCI redirector for rendered docs stopped working?
+github_scipy,BUG: optimize: too many open files with multiprocessing
+github_scipy,ENH: optimize.NonLinearConstraint: add `args` parameter
+github_scipy,BUG: `test_hermitian` for `lobpcg` failing on 32-bit Linux
+github_scipy,BUG: Incorrect use of NumPy scalar types instead of np.dtype in _sputils.py
+github_scipy,BUG: ndimage.median_filter: always returns `0` on single element arrays.
+github_scipy,DEP/RFC: linalg.solve: deprecate `lower` and `transposed` params
+github_scipy,BUG: sparse: `!=` operator with csr matrices
+github_scipy,MAINT: Use multi-phase initialisation (PEP 489)
+github_scipy,BUG: linalg.solve_sylvester: not raising `LinAlgError` when no solution exists
+github_scipy,ENH: stats.entropy: add `normalize` parameter to skip input normalization
+github_scipy,DOC: Wrong SPDX identifier for OpenBLAS and LAPACK
+github_scipy,BLD: build issues in WSL on main
+github_scipy,ENH: Function for bicoherence
+github_scipy,DEV: `spin smoke-docs` adds an option twice
+github_scipy,DOC: Invalid example under sparse.coo_array.tensordot
+github_scipy,ENH: `vectorized_filter`: special case of scalar `size` with `axes`
+github_scipy,BLD: `-Duse-system-libs` does not look in provided `--prefix`
+github_scipy,DOC: `linalg.toeplitz` does not support batching like the `1.16.0rc1` release notes say
+github_scipy,BUG: circular import error with `linalg._matfuncs_sqrtm_triu` on 1.16.0rc1
+github_scipy,BUG: signal.csd: doesn't zero-pad for different size inputs in 1.16.0rc1
+github_scipy,"TST: theilsope & siegelslope-related tests are failing on PyPy3.11 7.3.19: `TypeError: tuple() expected at most 1 argument, got 2`"
+github_scipy,MAINT: Some public sub-submodules still expose private objects
+github_scipy,BUG: Inconsistent STFT results between ShortTimeFFT.stft() and signal.stft()
+github_scipy,DEV/TST: print relevant env vars values in test header
+github_scipy,ENH/REL: provide `scipy-openblas32` wheel for `ppc64le`
+github_scipy,BUG: ConvexHull returns incorrect vertices in N-dimensional case
+github_scipy,DEV: can we 'scrape' package-wide `make_xp_test_case` info?
+github_scipy,QUERY: building and using a wheel on Windows
+github_scipy,ENH: stats: Gaussian Continuous Ranked Probability Score (CRPS)
+github_scipy,DOC: integrate: incorrect code or math notation in `dblquad` non-constant limit example
+github_scipy,CircleCI docs artifact redirector action affect by change in security setting
+github_scipy,Release notes do not explain what were the bug fixes.
+github_scipy,ENH: super-Gaussian rv_continuous distribtuion
+github_scipy,ENH: spatial: alpha shape/concave hull
+github_scipy,Bug with freqz when specifying worN after #22886
+github_scipy,DEV: `spin test -b all` adds `--pyargs scipy` twice
+github_scipy,DOC: optimize.nnls: squared 2-norm instead of 2-norm?
+github_scipy,BUG: optimize: `_linesearch_powell` can find worse local optimum than initial value
+github_scipy,QUERY: ndimage.zoom: very low factor on big grayscaled images does not look good
+github_scipy,ENH: sparse.linalg: Krylov methods for matrix functions
+github_scipy,"MAINT, CI: zizmor analysis of CI security"
+github_scipy,"BUG: The attribute ""nit"" is not found when using the callback of scipy.optimize.minimize"
+github_scipy,QUERY: `conda install scipy` changes python
+github_scipy,BUG: special._ufuncs._ncx2_pdf: interpreter crash with extreme input
+github_scipy,DOC: documenting scalar vs 0-D array return types
+github_scipy,BUG: stats.wrapcauchy: output isn't wrapped around the unit circle
+github_scipy,QUERY: optimize.minimize: adding constraints gives a better result
+github_scipy,TST: Nested arrays failing in array-api-strict git tip
+github_scipy,TST: `special`: `test_compiles_in_cupy` is broken
+github_scipy,BUG: signal.sawtooth: nan value?
+github_scipy,ENH: special: Associate Legendre Function with non-integer degree
+github_scipy,DOC: MSGS dictionary not linked or documented in scipy.optimize.fmin_tnc reference page
+github_scipy,BUG: interpolate._dierckx: `check_array()` can crash if the argument is not an array
+github_scipy,BUG: spatial.distance.squareform: array elements with object dtype are incorrectly refcounted
+github_scipy,DOC: spatial.Delaunay: links to wrong `transform`
+github_scipy,DOC: clarify the status of Apple's Accelerate Framework support
+github_scipy,BUG: `check_test_name` fails with `UnicodeDecodeError`?
+github_scipy,BUG: optimize: `SyntaxWarning: 'break' in a 'finally' block under 3.14`
+github_scipy,ENH: signal.find_peaks: improve ordering stability given ties
+github_scipy,"DOC: <Improvement for the Documentation for Scipy.integrate.rk23, OdeSolution, BDF 'DOC: ' prefix>"
+github_scipy,BUG: Wrong use of `__builtin_prefetch()`
+github_scipy,BUG: special.logsumexp: nan in 1.15
+github_scipy,DOC: interpolate.make_splrep: result depends on scaling of data
+github_scipy,BLD: meson picks system-managed Python for py3 dependency
+github_scipy,DEV: follow-up tasks after merge of `spin` support
+github_scipy,BUG: optimize.nnls: numerical instablity and performance issues in versions 1.12.0 through 1.15.2
+github_scipy,ENH: Marray meta-thread
+github_scipy,BUG: interpolate: Corner finding in Akima1DInterpolator silently fails
+github_scipy,DOC: Update minimum NumPy and Python in toolchain roadmap
+github_scipy,BUG: interpolate: Akima1DInterpolator raises ValueError for valid inputs
+github_scipy,ENH: Distribution Fitting with fixed parameters does not support vector of scales
+github_scipy,ENH: linalg: LAPACK *ggsvd3 wrapper
+github_scipy,BUG: scipy.special in 1.15.x doesn't support python 3.10 and numpy 1.26.4
+github_scipy,"BUG:  TypeError: C function scipy.spatial._qhull._barycentric_coordinates has wrong signature (expected void (int, double *, double *, double *), got void (int, double *, double const *, double *))"
+github_scipy,BUG: test_logm_consistency is failing on Windows on ARM using clang-cl
+github_scipy,ENH: optimize: add Constraints to `least_squares`
+github_scipy,BUG: stats.sigmaclip: returns strange thresholds
+github_scipy,ENH: stats: add matrix t-distribution
+github_scipy,BUG: re-importing `scipy` fails
+github_scipy,BUG: ImportError when using scipy.sparse with numpy 2.2.5
+github_scipy,BUG: crash in python-dbg CI job due to calling Python C API without holding the GIL
+github_scipy,BUG: signal.sosfiltfilt: memory leak flagged by memray
+github_scipy,BUG/TST: Hanging tests on riscv64 (under qemu)
+github_scipy,ENH: stats.qmc.geometric_discrepancy: `method='mindist'` can improve memory complexity
+github_scipy,"BUG: Sparse Interpolator (LinearNDInterpolator and CloughTocher2DInterpolator) return NaN on the points, which is linear combination of triangle point"
+github_scipy,BUG: linalg.expm: deviates from expected results on small complex matrices
+github_scipy,CI: new GH runners available for macOS 15 and Windows 2025
+github_scipy,"BUG: `stats.qmc.PoissonDisk`: overlapping sampling for negative `l_bounds`, `u_bounds`"
+github_scipy,BUG: stats.spearmanr: incorrectly identifies arrays as constant
+github_scipy,ENH: optimize.minimize: memory+speed improvement for `MemoizeJac`
+github_scipy,BUG: The status of `scipy.optimize.milp` is not accurate
+github_scipy,ENH: optimize: Reduce the wheel size by porting `_group_columns` to C/C++
+github_scipy,BUG: `signal.windows.kaiser_bessel_derived` uses `array` and is un-tested for `M<1`
+github_scipy,BUG: <Install Spciy fail under Macos>
+github_scipy,ENH: add `weights` param to `stats.quantile` similarly to NumPy
+github_scipy,BUG: linalg.cossin: incorrect decomposition
+github_scipy,BUG: optimize.nnls: unstable on i686 (32-bit) machine
+github_scipy,TST: TestDistributions.test_funcs[cdf-methods11-x-Normal]
+github_scipy,"RFC: ""relaxed"" error checking in some contexts"
+github_scipy,BLD: compiler warnings with clang 17
+github_scipy,ENH: Use cython shared utility module
+github_scipy,BUG: optimize: broken array types support in `least_squares`
+github_scipy,BLD: build failure with suspicious flag `-fopenmp`
+github_scipy,ENH: optimize: Return bound multiplier for SLSQP
+github_scipy,DOC/DEV: outdated references to Cirrus CI
+github_scipy,BUG: test_cython Failing on Windows on ARM64 with clang-cl
+github_scipy,BUG: integrate.solve_ivp: solution behavior diverges and converges suddenly
+github_scipy,CI: Failures in pytest-run-parallel CI job
+github_scipy,MAINT: Collect low-level code under SRC folder per module respectively
+github_scipy,BUG: optimize.linprog: slower
+github_scipy,BUG: special.sph_harm: `got 0j instead of nan` test fail on riscv64
+github_scipy,BUG: signal.minimum_phase: homomorphic mask error
+github_scipy,TST: linalg.{lu_}solve: `TestBatch` tolerance failures with Intel LLVM compilers 2024.2
+github_scipy,QUERY: stats.bootstrap with resample without replacement
+github_scipy,QUERY/BLD: build with Intel LLVM compilers 2024.2 gives `undefined symbol: __intel_avx_rep_memset`
+github_scipy,BUG: linalg.eigh: incorrect results for matrices with large degeneracies
+github_scipy,ENH: io.loadmat: extract data from MATLAB objects/classes
+github_scipy,BUG: special.hyp2f1: problematic region in v1.15.2
+github_scipy,ENH: linalg: integrate `mplapack` and `mpmath`/`gmpy2` for eigenvalues/SVD of multi-precision matrices
+github_scipy,BUG: optimize.nnls: Maximum number of iterations reached behavior
+github_scipy,"MAINT, CI: floating point exceptions activated in NumPy"
+github_scipy,ENH: more Hausdorff speedups
+github_scipy,QUERY: no longer need to convert `desired` of `xp_assert_`s with `xp.asarray`?
+github_scipy,ENH: sparse.csgraph.depth_first_order: support POST-ORDER output
+github_scipy,BUG: optimize.linprog: 20x slower in 1.15.x
+github_scipy,BUG: special.j1: incorrect for small and large x
+github_scipy,BUG: special.j0: incorrect for large x
+github_scipy,ENH: `interpolate.make_splrep`: fails for ill-conditioned problems
+github_scipy,DOC: integrate: `quad_vec` info return type is `_Bunch` not `dict`
+github_scipy,"BUG: sparse: Potential Memory Leak in `{csr,csc}_{array,matrix}.copy`"
+github_scipy,"CI: new failures: segfault in free-threaded, `linprog` invalid value encountered in `dot`"
+github_scipy,DOC: interpolate.make_smoothing_spline: example plot uses the same color for points and the fit spline
+github_scipy,ENH: sparse.csgraph.laplacian: generalize to signed networks
+github_scipy,BUG: signal.resample_poly: dtype not preserved
+github_scipy,BUG: special.betainc: inaccurate/incorrect for small a and b values when using single-precision floats
+github_scipy,DOC: integrate.tanhsinh: documentation refers to non-existent attribute
+github_scipy,BUG: error for arrays on non-default device
+github_scipy,QUERY: optimize.linear_sum_assignment: wrong result?
+github_scipy,QUERY: signal: window normalization for spectral routines
+github_scipy,QUERY: sparse eigen value decomposition difference
+github_scipy,BUG/TST: Test failure of Normal ccdf
+github_scipy,QUERY: optimize.brute: returned parameters outside of ranges?
+github_scipy,QUERY: stats.brunnermunzel: produces warnings and nans with edge case input
+github_scipy,QUERY: stats.Normal: `ImportError` in 1.15.2
+github_scipy,BUG: Sparse matrix advanced indexing is unexpectedly slow
+github_scipy,BUG: spatial: `RigidTransform` does not support zero-length collections
+github_scipy,BLD: spksrc issue cross-compiling
+github_scipy,BUG: optimize.linprog: 40x slower in v1.15 compared to v1.14
+github_scipy,BUG/REL: PyPI Linux wheels contain duplicate libgfortran/libquadmath
+github_scipy,CI/DOC: CloughTocher2DInterpolator: `UserWarning` in docs build
+github_scipy,ENH: ndimage.label: accept sparse arrays
+github_scipy,BUG: `KeyboardInterrupt` in `_bspl._colloc_nd` (called from `interpolate.RegularGridInterpolator`)
+github_scipy,BUG: Transposed LinearOperator fails on vector multiplication
+github_scipy,DOC: optimize.root: default values of optional parameters not documented
+github_scipy,QUERY: deprecated option `disp` in `minimize(method=’L-BFGS-B’)`
+github_scipy,"DOC: signal.savgol_filter: with `mode='constant'`, calculation seemed to mismatch docs"
+github_scipy,BUG: scipy.stats: tmin/tmax: loss of precision for large integers
+github_scipy,BUG: stats.binom.isf gives wrong result
+github_scipy,BUG: io: `ZeroDivisionError` while loading MATLAB file
+github_scipy,CI: oneAPI job: `Not enough disk space.`
+github_scipy,BUG: spatial: `C function scipy.spatial._qhull._barycentric_coordinates has wrong signature`
+github_scipy,BUG: special.logsumexp: inconsistency in phase when one element is complex infinity
+github_scipy,DOC: sparse.linalg.ArpackError: entire default `infodict` displayed
+github_scipy,BUG: Maximum capacity for scipy.signal.welch() has reduced significantly on 32 bit systems
+github_scipy,"BUG: test failures in 1.15.2, Guix"
+github_scipy,DEV: running test suite without 'dev.py' is a pain
+github_scipy,QUERY: optimize.linprog: fails to find feasible point with negative variables
+github_scipy,BUG: sparse.coo: `ImportError` for `upcast`
+github_scipy,BUG: spatial: `Rotation` no longer supports zero-length collections
+github_scipy,BUG: ndimage.median_filter: additional hard crashes
+github_scipy,BLD: pip build from source fails in `_stats_pythran` with PyPy3.11
+github_scipy,DOC: stats.gaussian_kde: clarify the meaning of `factor`
+github_scipy,BUG: special: cython complex failures on sparc64
+github_scipy,DOC/BUG?: ndimage: correspondence between `axes` and `size`?
+github_scipy,CI: benchmark job on CircleCI is failing on `io.mmread` memory usage
+github_scipy,BUG: `lfilter` returns a leaked state from a previous call when the input `x` is an empty array
+github_scipy,ENH: please add eval_nonzero_bspl to scipy.interpolate interface
+github_scipy,BUG: scipy.optimize.curve_fit gives different covariance matrices with LM vs TRF method
+github_scipy,BUG: stats.multinomial.pmf: inconsistent results?
+github_scipy,CI: docs build failure
+github_scipy,BUG: `ndimage`: Numerical regressions in Dask 2025.2.0
+github_scipy,BUG: linalg.expm: bug on Windows / conda
+github_scipy,MAINT: optimize: unnecessary `not_first_iteration` boolean variable in `scalar_search_wolfe2`
+github_scipy,BUG: _lib: Data race reported by TSAN in `ccallback` mechanism
+github_scipy,BUG: TSAN reports data race in `fast_matrix_market::line_count_result_s`
+github_scipy,condition in scalar_search_wolfe2 can never be true
+github_scipy,CI: failures `*/tests/test_extending` due to a regression in Meson master
+github_scipy,BUG: ndimage.binary_erosion: segfault
+github_scipy,BUG: Inconsistent pivoting indices `ipiv` between `scipy.linalg.lapack.?gttrf` and `scipy.linalg.lapack.?gbtrf`
+github_scipy,BUG: ndimage.spline_filter1D magnifies data
+github_scipy,CI: Some GitHub workflows failing due to check on `actions/cache` version.
+github_scipy,ENH: add `axis` parameter to FloaterHormannInterpolator and AAA
+github_scipy,performance: _construct_docstrings slow in scipy.stats
+github_scipy,DOC: Inconsistent notation in Linear algebra (scipy.linalg) page
+github_scipy,BUG: `min_weight_full_bipartite_matching` fails for `coo_matrix` input with `AttributeError: 'coo_matrix' object has no attribute 'indices'`
+github_scipy,ENH: spatial.transform: Add array API standard support
+github_scipy,ENH: stats: T Testing of lognormal distribution with Modified Cox Method
+github_scipy,BUG: special test TestHyp2f1.test_region4[hyp2f1_test_case42] fails tolerance built targeting x86-64-v3
+github_scipy,ENH: Add test functions for optimization to `scipy.optimize`
+github_scipy,DOC: interpolate.lagrange: the Lagrange function is using the Newton method of calculation
+github_scipy,BUG: wheel build failure on MacOS due to `std::lower_bound` compilation failure
+github_scipy,DOC: remove links to the reference guide in the tutorials page
+github_scipy,MAINT: scipy.stats: test_regressZEROX SIMD warning for certain NumPy version ranges
+github_scipy,Building PROPACK without using the meson-generated c parts
+github_scipy,RFC:linalg: nD-array accepting functions to return partially completed work instead of discarding all and throwing an exception
+github_scipy,BUG: Cannot use scipy.optimize in Anaconda Mac mini M1 sequoia
+github_scipy,BUG: `lfiltic`'s handling of `a[0] != 1` differs from `lfilter`'s
+github_scipy,ENH: Improve smoothing quality of `scipy.signal.savgol_filter` by weighted polynomial regression
+github_scipy,BUG: `io/matlab/tests/test_mio.py::test_large_m4` fails on aarch64-darwin
+github_scipy,Different results on Linux and MacOS for lbfgsb (see #14691)
+github_scipy,DOC: freqz_sos: claims that it was introduced in 0.19; no mention to sosfreqz; no documentation for sosfreqz
+github_scipy,BUG: Slicing sparse matrix with `None` gives result different from numpy's matrices
+github_scipy,BUG: interpolative svd broken for non-square linear operators
+github_scipy,QUERY: difference between `namedtuple`s and objects produced by `_make_tuple_bunch`?
+github_scipy,BUG: sparse.csgraph.construct_dist_matrix: buffer dtype mismatch
+github_scipy,BUG: io.loadmat thinks a file with a lot of zeros is valid
+github_scipy,BUG: Slow down in function evaluations within scipy.optimize.minimize after 1.15.0
+github_scipy,DOC: The code of conduct link is dead
+github_scipy,BUG: special.itj0y0: regression for `t > 19`
+github_scipy,BUG: sparray does not declare any method
+github_scipy,DOC: integrate: missing bold font for a vector in tutorial
+github_scipy,BUG: Fisher Exact Test Error Inconsistent with Documentation (non-2x2 tables)
+github_scipy,BUG: spatial.transform: `Rotation.from_matrix()` uses inaccurate orthonormalization algorithm
+github_scipy,Two `TestBatch` failures in macOS x86-64 Accelerate wheel build jobs
+github_scipy,ENH: optimize.lsq_linear: add option to supply initial guess
+github_scipy,RFC/API: move `clarkson_woodruff_transform` from `linalg` to `sparse.linalg`?
+github_scipy,DEV: Generating GitHub release notes from Sphinx documentation
+github_scipy,DEV: asan experience with pytest a bit messy on Linux
+github_scipy,BUG: `scipy.stats.zmap` returns incorrect values for complex dtype `compare`
+github_scipy,DOC: `gaussian_kde`'s `bw_method='silverman'` deviates from expected behavior
+github_scipy,"BUG: stats.genextreme.stats: Spurious warning from `genextreme.stats(0.0, moments='mvsk')`"
+github_scipy,BUG: special: failure of TestSystematic.test_besselj_complex on main
+github_scipy,BUG: py39-scipy 1.13.1_0 fails to build on Mac Sequoia 15.2
+github_scipy,"DEV: Allow ""Update branch"" button for maintainers?"
+github_scipy,BUG: signal.convolve: large numerical errors when input has large magnitude difference and `method=fft`
+github_scipy,CI: docs build failure on main from `sqlalchemy` via `sphinx`
+github_scipy,ENH: sparse.spmatrix: allow fast import
+github_scipy,"DOC/TST: interpolate, signal: `smoke-docs` failures"
+github_scipy,BUG: optimize.curve_fit: error on data with size = 1 and covariance matrix
+github_scipy,RFC: Feature roadmap for 3D spatial transformations
+github_scipy,BUG: signal filter functions raises TypeError when np.int64 dtype inputs are given
+github_scipy,QUERY/TYP: sparse: Pylance reports unreachable after `toarray()`
+github_scipy,BUG: ndimage: C++ memory management issues in `_rank_filter_1d.cpp`
+github_scipy,BUG: special test TestHyp2f1.test_region3[hyp2f1_test_case23] fails tolerance on i386
+github_scipy,BLD: SciPy manages to ICE GCC?
+github_scipy,BUG: interpolation test TestSmoothingSpline.test_compare_with_GCVSPL fails on bigendian architectures.
+github_scipy,BUG: stats: `test_axis_nan_policy_axis_is_None[mixed-*-xp*]` fails on mips64el
+github_scipy,BUG: interpolate test_bary_rational.TestAAA.test_basic_functions fails tolerance with some BLAS
+github_scipy,BLD: libhighs.a static library is installed
+github_scipy,BUG: Matrix multiplication of a coo_matrix with an invalid type value does not raise a TypeError
+github_scipy,ENH: scipy.io.netcdf support for CDF-5 format
+github_scipy,DOC: `RuntimeWarning: divide by zero encountered in det` while building SciPy docs
+github_scipy,QUERY: Intellisense Autocomplete Not Working for `spatial.transform.Rotation`
+github_scipy,BUG: special: Unchecked malloc in stirling2.h
+github_scipy,BUG: `__pyx_fuse_1betainc` fused version yields incorrect result
+github_scipy,ENH: stats: add double-sided crystal ball distribution
+github_scipy,BUG: signal.medfilt and ndimage.median_filter not returning correct output
+github_scipy,QUERY: integrate.solve_ivp: cannot pass args properly
+github_scipy,QUERY: cannot install SciPy 32-bit
+github_scipy,QUERY: stats.beta.fit: `FitError` on reasonable data
+github_scipy,TYP: stats.rv_discrete: lower bound 'a' different types reported
+github_scipy,ENH: Pulsar Analysis lomb-scargle periodogram
+github_scipy,BUG: ndimage.median_filter: Heap corruption with scipy 1.15
+github_scipy,DOC: `/` and `*` denoting positional- and keyword-only arguments missing?
+github_scipy,ENH: integrate.nsum: convention when `b < a`?
+github_scipy,BUG: stats: regression in performance of studentized_range
+github_scipy,"DOC: sparse.linalg.LinearOperator: meaning of ""exponentiated""?"
+github_scipy,BUG: genhyperbolic.fit is not stable and produces 'scale' parameter close to zero
+github_scipy,BUG: scipy.special.pro_ang1 (and probably others) can corrupt memory
+github_scipy,BUG: [scipy.stats.kruskal()] Memory Overflow
+github_scipy,BUG: special: Potential memory leak  in the function `besy()` in `amos.h`
+github_scipy,BUG: scipy.sparse.linalg.eigsh returns an error when LinearOperator.dtype=None
+github_scipy,DOC: optimize.elementwise.find_minimum: harmonize documented/implemented interval termination condition
+github_scipy,BUG: importlib.metadata.version does not report the version of scipy 1.15.1
+github_scipy,ENH: stats.special_ortho_group: improve and simplify
+github_scipy,RFC: ndimage: operations in physical space
+github_scipy,TST: TestDistributions.test_funcs[logcdf-methods10-x-Normal] fail
+github_scipy,"DOC: `source` now links to top of file, not location within file"
+github_scipy,ENH: interpolate: regular grid linear interpolation for a vector-valued function
+github_scipy,TST: new test failures in 1.15.0 for blis on osx & windows
+github_scipy,QUERY: Pyright raises error/warning in IDE
+github_scipy,"BUG: On Windows, anaconda-packaged scipy.odr fails on simple example"
+github_scipy,QUERY/DEV: test failure in IDE with `SCIPY_ARRAY_API`
+github_scipy,Query: empty `Rotation` is not allowed in scipy=1.15
+github_scipy,BUG: linalg: `hecon` returns NaN incorrectly with some lower triangular data?
+github_scipy,BUG: linalg.solve doesn't raise an error when A is a singular matrix
+github_scipy,BUG: Constructing sparse matrix with big-endian float32/64 raises (confusing) error.
+github_scipy,BUG: Importing scipy.optimize break highspy
+github_scipy,ENH: stats: Add a new infrastructure version of the Von Mises distribution
+github_scipy,MAINT: Fix a dtype check in `scipy.signal._waveforms.py`
+github_scipy,BUG: median_filter on 1D array crashes with memory corruption using SciPy 1.15.0
+github_scipy,DOC: build failing on main
+github_scipy,ENH: tracking issue for JAX support
+github_scipy,MAINT: specify lower bound for `pytest` in `pyproject.toml`
+github_scipy,DOC: Interactive notebooks in stats tutorials are not working in version 1.15 docs.
+github_scipy,"ENH, array types: differentiate.derivative requires promotion between floats and integral arrays"
+github_scipy,"BUG, array types: stats: `pmean` can fail for integral arrays"
+github_scipy,BUG: scipy v1.15 breaking for pytest when assert-rewrite is on
+github_scipy,BUG: sparse.linalg.lsqr: variance returned appears systematically incorrect
+github_scipy,"ENH: integrate.OdeSolver: opt-in to store history, trigger events, etc."
+github_scipy,MAINT: remove end year from copyright
+github_scipy,ENH: Improve differentialevolution _ConstraintWrapper performance
+github_scipy,CI: add a job with `torch.default_dtype = torch.float64`
+github_scipy,DOC: update roadmap
+github_scipy,ENH: signal.ShortTimeFFT: add stream processing capability
+github_scipy,ENH: integrate: custom method to reject steps in certain OdeSolvers
+github_scipy,BUG: signal.ShortTimeFFT: `istft` with `mfft > len(win)` not supported with leading dimensions
+github_scipy,BUG: integrate_box after scipy.stats. gaussian_kde fit
+github_scipy,BUG: special/xsf: Unchecked use of `new` in a few places.
+github_scipy,"BUG (DOC?): `linalg.qr_update` fails for `k > M - N`,  `M > N`"
+github_scipy,Query: optimize.basinhopping: lowest minimum not accepted if first iteration does not converge
+github_scipy,RFC: stats: sunsetting `scipy.stats.mstats`
+github_scipy,ENH: signal.correlate: Native Support for Axis-Wise Cross-Correlation Between 2D Arrays
+github_scipy,BUG: optimize.milp: segfault from HiGHS
+github_scipy,ENH: stats: games-howell pairwise comparison
+github_scipy,BUG: Segmentation Fault when passing a special array to `scipy.cluster.hierarchy.cophenet`
+github_scipy,CI: sparse: smoke-docs failure on main
+github_scipy,DOC/MAINT: stats/signal: 5 build warnings locally
+github_scipy,ENH: stats: T Testing of lognormal distribution
+github_scipy,MAINT: undo ignored errors in mypy
+github_scipy,DOC: update `scipy` module docstring for lazy loading
+github_scipy,MAINT: io: Mypy faillure in main
+github_scipy,ENH: sparse: matmul add broadcasting
+github_scipy,DOC: linalg.cossin: improve readability of equation
+github_scipy,BUG:`stats.ContinuousDistribution.llf`: should not be public
+github_scipy,QUERY: `stats.ContinuousDistribution`: adopt different broadcasting rules?
+github_scipy,Query: optimize.minimize: trust_constr does not avoid Nonlinear constraints
+github_scipy,"BUG: Fail to call `BSpline` after unpickling with `mmap_mode=""r""`"
+github_scipy,Can't pickle `array_namespace`
+github_scipy,BUG: `stats._distribution_infrastructure._Domain.symbols` class attribute is shared by instances
+github_scipy,DOC: linalg.matrix_balance: equation does not render
+github_scipy,ENH: Quantiles for probability distributions
+github_scipy,BUG/DOC: it's not clear how to use `differentiate.jacobian` for a scalar valued function
+github_scipy,BUG: stats: XSLOW test failure in `test_axis_nan_policy.py::test_non_broadcastable`
+github_scipy,DOC: stats: random variable transition guide launches wrong notebook
+github_scipy,BUG: linalg.qr: large rounding error resulting in Hessenberg invariant violation
+github_scipy,BUG: linalg.qr: large rounding error resulting in Hessenberg invariant violation
+github_scipy,ENH: optimize.minimize: parallel evaluation of finite-difference based gradients
+github_scipy,Consider `x.ndim > 1`  generalizations of spline and polynomial interpolators
+github_scipy,BUG: linalg.qr: large rounding error resulting in Hessenberg invariant violation
+github_scipy,BUG: `scipy.interpolate._bsplines._make_periodic_spline` crashes the Python Interpreter after correctly raising ValueError
+github_scipy,BUG/DOC: sparse: ND COO unexpected behaviour 1.15.0rc1
+github_scipy,DOC: UnivariateSpline smoothing condition probably incorrect
+github_scipy,QUERY: slowness in recent versions mixing OpenBLAS with `multiprocessing`
+github_scipy,API: unmentioned removal of `scipy.version.commit_count` in `1.15.0rc1`
+github_scipy,DEP: `interpolate.interpnd.GradientEstimationWarning` still present in `1.15.0rc1`
+github_scipy,BUG: Pythonw does not run on Windows 11 when scipy.fft is being imported
+github_scipy,"DOC: sparse: `sparse.eye_array` does not accept `tuple[int, int]` as the docs say that it should"
+github_scipy,API: unannounced breaking change: `scipy.integrate.AccuracyWarning` removed in `1.15.0rc1`
+github_scipy,DOC: integrate.quad: uses Gauss-Kronrod not Curtis-Clenshaw?
+github_scipy,MAINT: signal: build warning (`sprintf`) on macOS
+github_scipy,"DOC, REL: a few release notes/process issues"
+github_scipy,DOC: PchipInterpolator: missing integrate function
+github_scipy,DOC: sparse: Several functions are missing the 'Returns' section of their docstring
+github_scipy,BUG: dsyrk slower than naive numpy matrix-matrix multiplication on matrices with many columns
+github_scipy,"DOC: `stats.order_statistic`: docstring missing the ""Returns"" section"
+github_scipy,DOC: ndimage.minimum and maximum: incorrect return type
+github_scipy,"BUG: ndimage, array types: `minimum_position` and `extrema` incorrect return namespace"
+github_scipy,MAINT: Cython lint failures in build output
+github_scipy,BUG: AttributeError: module 'numpy' has no attribute 'AxisError' in stats.wilcoxon
+github_scipy,DOC: stats: clarify the support of a distribution is unaffected by loc and scale
+github_scipy,TST: `optimize.elementwise.bracket_minimum`: CuPy failure
+github_scipy,TST: test_extending failures on free-threaded Windows wheel build
+github_scipy,Query: signal: improve stability for filters for a broad frequency range?
+github_scipy,BUG: mypy failure in main
+github_scipy,`Test_SVDS_LOBPCG.test_svd_rng_3` test failure in wheel build job
+github_scipy,DOC: updating release process docs for versioning simplification
+github_scipy,TST: tolerance violation in `test_x0_working[tfqmr]` on windows
+github_scipy,DOC: stats.mannwhitneyu: unclear about the baseline
+github_scipy,"DOC, BUG: doc build failure due to scipy.misc changes"
+github_scipy,ENH: Add support for free threaded python
+github_scipy,"ENH: special.gammainc: allow negative arguments and computation via [DLMF, eq. 8.7.3]"
+github_scipy,BUG: interpolate.Akima1DInterpolator: different values on subsequent calls
+github_scipy,BUG: eigh can't work when N = 45000
+github_scipy,ENH: sparse.linalg.eigsh: performance issue
+github_scipy,TST: `TestJacobian::test_attrs` tol bump?
+github_scipy,DOC: stats.pearsonr: incorrect `versionadded` for `axis` param
+github_scipy,BLD: `ld: warning: ignoring duplicate libraries: '-lgfortran'`
+github_scipy,DOC: `ndimage.median_filter`: document behaviour with `nan`s or even `size`
+github_scipy,ENH: `io.mmread`: Provide better error message when loading a matrix market file that doesn't exist
+github_scipy,scipy.linalg.solve CRASH when used with IntelOneAPI 2024.2 MKL on Windows 11
+github_scipy,BUG: `optimize.curve_fit` with `method='lm'` fails to determine `pcov` when `popt` has zeros
+github_scipy,refguide_check currently failing
+github_scipy,ENH: optimize.root: warn when inner parameters are ignored with `method='krylov'`
+github_scipy,No description
+github_scipy,STY: fix and enable lint rule UP031
+github_scipy,ENH: `ndimage.median_filter`: extended `dtype` support?
+github_scipy,BLD: failure with py314t & Cython 3.1.0a1
+github_scipy,BUG: _filter_design.py:1112: BadCoefficients: Badly conditioned filter coefficients (numerator)
+github_scipy,BLD: failure with py314t & Cython 3.1.0a1
+github_scipy,ENH: special: replace cdflib
+github_scipy,DOC: Deprecation warning in `sphinx` when used with Python 3.13
+github_scipy,BUG: `linalg.subspace_angles`: numeric error
+github_scipy,DOC: I had a problem with being unaware of changed behavior between versions. A changelog would be great
+github_scipy,BUG:  `eliminate_zeros` raises when `indptr.dtype` != `indices.dtype`
+github_scipy,BUG: Multiple DiscreteAliasUrn instances cause MessageStream.close error
+github_scipy,"CI: failure for ""Oldest GCC ..."" Linux CI job (related to pre-release NumPy)"
+github_scipy,DOC: `stats.goodness_of_fit`: improve examples
+github_scipy,BUG: linalg.eigvals: incorrect handling of singular positive semidefinite matrices
+github_scipy,BUG: stats: XSLOW test failure in `scipy.stats.tests.test_fit::TestFit`
+github_scipy,BUG: several failing tests in `interpolate` on macOS15
+github_scipy,BUG: optimize.shgo: ignores a constraint
+github_scipy,"DOC, REL: 1.15.0 author mappings"
+github_scipy,BUG: `*ger*` routines in `linalg.blas` are not thread-safe
+github_scipy,"BUG: Intel oneAPI tests / py3.12, dev.py: `meson.build:1:0: ERROR: Compiler icx cannot compile programs.`"
+github_scipy,TST: failures in `test_riemann_zeta_complex` on windows in conda-forge
+github_scipy,ENH: sparse: New nD sparse array functions
+github_scipy,BUG: Clayton Copula Cannot Handle Negative Theta Values
+github_scipy,BUG: interpolate.griddata: NaNs inside convex hull (despite no NaNs or duplicates in data)
+github_scipy,BUG: integrate.trapezoid: broadcasting failure after #21524
+github_scipy,BUG: Inconsistent results from dgesv on different platforms
+github_scipy,BUG: stats: New XSLOW test failure in test_sampling.py
+github_scipy,MAINT: smoke-docs failure on main
+github_scipy,RFC: 64-bit LAPACK and `cython_lapack`
+github_scipy,BUG: MacOS test failures with GNU toolchain
+github_scipy,BUG: `interpolate/tests/test_interpnd.py::TestLinearNDInterpolation::test_threading` failure
+github_scipy,BLD: Compile error for scipy 1.12 with Intel oneAPI 2025.0.0
+github_scipy,"ENH: When computing bootstrap CIs with BCa, allow estimating acceleration with random subsets of jackknife rather than full jackknife"
+github_scipy,BUG: `scipy.datasets` failing with Error 403 for readthedocs builds
+github_scipy,BUG: stats: _stats_pythran.cpp issue with development dependencies?
+github_scipy,BUG: signal.fftconvolve/oaconvolve: inconsistent broadcasting
+github_scipy,"ENH: implement `extend=""recurrence""` for `factorial{2,k}`?"
+github_scipy,ENH: KDTree compatible with Mahalanobis distance
+github_scipy,BUG: large number of fails with macOS 15.1 using Accelerate
