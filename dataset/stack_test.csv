@@ -1,0 +1,401 @@
+source,raw_text,priority_label
+stackoverflow,What does the !! (double exclamation mark) operator do in JavaScript?,Medium
+stackoverflow,What is the best way to add options to a select from a JavaScript object with jQuery?,Medium
+stackoverflow,How to set environment variables in Python?,Medium
+stackoverflow,Selecting multiple columns in a Pandas dataframe,Low
+stackoverflow,Propagate all arguments in a Bash shell script,Low
+stackoverflow,How can I initialise a static Map?,Medium
+stackoverflow,LF will be replaced by CRLF in git - What is that and is it important?,Medium
+stackoverflow,How to add 30 minutes to a JavaScript Date object?,Medium
+stackoverflow,How do I check for an empty/undefined/null string in JavaScript?,Medium
+stackoverflow,Exclude a column using SELECT * [except columnA] FROM tableA?,Low
+stackoverflow,What effect does the `--no-ff` flag have for `git merge`?,Low
+stackoverflow,How can I delete a remote tag?,Medium
+stackoverflow,"Writing a list to a file with Python, with newlines",Low
+stackoverflow,pretty-print JSON using JavaScript,Medium
+stackoverflow,How to list the properties of a JavaScript object?,Medium
+stackoverflow,Indent multiple lines quickly in vi,Low
+stackoverflow,How do I check whether a checkbox is checked in jQuery?,Medium
+stackoverflow,How to get the browser to navigate to URL in JavaScript,Medium
+stackoverflow,How do I generate random integers within a specific range in Java?,Medium
+stackoverflow,Activity has leaked window that was originally added,Low
+stackoverflow,How do I vertically align text in a div?,Medium
+stackoverflow,How can I trim a std::string?,Medium
+stackoverflow,JavaScript check if variable exists (is defined/initialized),Low
+stackoverflow,How do I find the location of my Python site-packages directory?,Medium
+stackoverflow,How can I read a large text file line by line using Java?,Medium
+stackoverflow,Sending command line arguments to npm script,Low
+stackoverflow,"What is the difference between the GNU Makefile variable assignments =, ?=, := and +=?",Medium
+stackoverflow,"Difference between HashMap, LinkedHashMap and TreeMap",Medium
+stackoverflow,How can I prevent SQL injection in PHP?,Medium
+stackoverflow,How do I POST JSON data with cURL?,Medium
+stackoverflow,How are iloc and loc different?,Low
+stackoverflow,Git - fatal: Unable to create '/path/my_project/.git/index.lock': File exists,Low
+stackoverflow,Find when a file was deleted in Git,Low
+stackoverflow,Pipe to/from the clipboard in a Bash script,Low
+stackoverflow,How to duplicate a whole line in Vim?,Medium
+stackoverflow,Why dict.get(key) instead of dict[key]?,Low
+stackoverflow,Git push rejected after feature branch rebase,Low
+stackoverflow,"How to undo ""git commit --amend"" done instead of ""git commit""",Medium
+stackoverflow,Enumerations on PHP,Low
+stackoverflow,"What is the difference between const int*, const int * const, and int * const?",Medium
+stackoverflow,How can I check if an object is an array?,Medium
+stackoverflow,"What is the difference between px, dip, dp, and sp?",Medium
+stackoverflow,Returning JSON from a PHP Script,Low
+stackoverflow,SOAP vs REST (differences),Low
+stackoverflow,"What does <meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> do?",Medium
+stackoverflow,Usage of __slots__?,Low
+stackoverflow,"Why is printing ""B"" dramatically slower than printing ""#""?",Medium
+stackoverflow,Upgrade Node.js to the latest version on Mac OS,Medium
+stackoverflow,How to tag an older commit in Git?,Medium
+stackoverflow,Vanilla JavaScript equivalent of jQuery's $.ready() - how to call a function when the page/DOM is ready for it,Medium
+stackoverflow,Reliable way for a Bash script to get the full path to itself,Low
+stackoverflow,How to Sort a List<T> by a property in the object,Medium
+stackoverflow,How to mkdir only if a directory does not already exist?,Medium
+stackoverflow,How do I move a file in Python?,Medium
+stackoverflow,Set a default parameter value for a JavaScript function,Low
+stackoverflow,Insert into a MySQL table or update if exists,Low
+stackoverflow,Filename too long in Git for Windows,Low
+stackoverflow,Virtual member call in a constructor,Low
+stackoverflow,How can I check for an active Internet connection on iOS or macOS?,Medium
+stackoverflow,How to import the class within the same directory or sub directory?,Medium
+stackoverflow,How can I customize the tab-to-space conversion factor in VS Code?,Medium
+stackoverflow,How to fix Docker: Permission denied,High
+stackoverflow,"How do we control web page caching, across all browsers?",Low
+stackoverflow,How do I delete a file from a Git repository?,Medium
+stackoverflow,Where can I find php.ini?,Low
+stackoverflow,How to check a radio button with jQuery?,Medium
+stackoverflow,Returning IEnumerable<T> vs. IQueryable<T>,Low
+stackoverflow,"What's the problem with ""using namespace std;""?",High
+stackoverflow,Get a list from Pandas DataFrame column headers,Low
+stackoverflow,How to check if element is visible after scrolling?,Medium
+stackoverflow,"Java 8 List<V> into Map<K, V>",Low
+stackoverflow,What are the differences between a HashMap and a Hashtable in Java?,Medium
+stackoverflow,What is the difference between a field and a property?,Medium
+stackoverflow,Colors in JavaScript console,Low
+stackoverflow,"Definition of ""downstream"" and ""upstream""",Low
+stackoverflow,What is the optimal algorithm for the game 2048?,Medium
+stackoverflow,How to get first N number of elements from an array,Medium
+stackoverflow,What do __init__ and self do in Python?,Low
+stackoverflow,How can I view an old version of a file with Git?,Medium
+stackoverflow,Is there a CSS parent selector?,Medium
+stackoverflow,Proper use of 'yield return',Low
+stackoverflow,Recursively counting files in a Linux directory,Low
+stackoverflow,Remove duplicate values from a JavaScript array,Low
+stackoverflow,Save PL/pgSQL output from PostgreSQL to a CSV file,Low
+stackoverflow,"How does the SQL injection from the ""Bobby Tables"" XKCD comic work?",Low
+stackoverflow,What is the difference between concurrency and parallelism?,Medium
+stackoverflow,What is tail call optimization?,Medium
+stackoverflow,Open link in new tab or window,Low
+stackoverflow,Validate decimal numbers in JavaScript - IsNumeric(),Low
+stackoverflow,How can the default Node.js version be set using NVM?,Low
+stackoverflow,"How to set, clear, and toggle a single bit",Medium
+stackoverflow,Get property value from string using reflection,Low
+stackoverflow,What does the ??!??! operator do in C?,Medium
+stackoverflow,How to get the CUDA version?,Medium
+stackoverflow,Could not open a connection to your authentication agent,Low
+stackoverflow,How to efficiently count the number of keys/properties of an object in JavaScript,Medium
+stackoverflow,How do I return the response from an asynchronous call?,Medium
+stackoverflow,"Is there an ""exists"" function for jQuery?",Medium
+stackoverflow,Create a dictionary with comprehension,Low
+stackoverflow,How to compare arrays in JavaScript?,Medium
+stackoverflow,How to redirect output to a file and stdout,Medium
+stackoverflow,How can I use Python to get the system hostname?,Medium
+stackoverflow,What is the difference between 'typedef' and 'using'?,Medium
+stackoverflow,How to have 'git log' show filenames like 'svn log -v',Medium
+stackoverflow,Why is Dictionary preferred over Hashtable in C#?,Medium
+stackoverflow,"How can I deal with this Git warning? ""Pulling without specifying how to reconcile divergent branches is discouraged""",Medium
+stackoverflow,Angular: conditional class with *ngClass,Low
+stackoverflow,Read environment variables in Node.js,Low
+stackoverflow,When should I use curly braces for ES6 import?,Low
+stackoverflow,Get the current year in JavaScript,Low
+stackoverflow,How can I tell if a DOM element is visible in the current viewport?,Medium
+stackoverflow,How can I stop EditText from gaining focus when an activity starts in Android?,Medium
+stackoverflow,Upgrading Node.js to the latest version,Low
+stackoverflow,Convert date to datetime in Python,Medium
+stackoverflow,How to remove text from a string?,Medium
+stackoverflow,Check if element exists in jQuery,Low
+stackoverflow,"How do I resolve git saying ""Commit your changes or stash them before you can merge""?",Medium
+stackoverflow,How can I replace each newline (\n) with a space using sed?,Medium
+stackoverflow,Fastest way to check if a value exists in a list,Low
+stackoverflow,How do I get started with Node.js,Medium
+stackoverflow,Shortcuts in Objective-C to concatenate NSStrings,Low
+stackoverflow,How do I reverse a string in Python?,Medium
+stackoverflow,Undo git stash pop that results in merge conflict,Low
+stackoverflow,How do I turn a C# object into a JSON string in .NET?,Medium
+stackoverflow,Deleting DataFrame row in Pandas based on column value,Low
+stackoverflow,"Why does my JavaScript code receive a ""No 'Access-Control-Allow-Origin' header is present on the requested resource"" error, while Postman does not?",High
+stackoverflow,Are double quotes and single quotes interchangeable for string literals in JavaScript?,Low
+stackoverflow,Git push requires username and password,Low
+stackoverflow,How can I change the commit author for a single commit?,Medium
+stackoverflow,What is move semantics?,Medium
+stackoverflow,Correct way to write line to file?,Low
+stackoverflow,Check if table exists in SQL Server,Low
+stackoverflow,scp with port number specified,Low
+stackoverflow,"How can I catch multiple exceptions in one line? (in the ""except"" block)",High
+stackoverflow,What is 'Context' on Android?,Medium
+stackoverflow,str_starts_with and str_ends_with functions in PHP,Low
+stackoverflow,How do I list all cron jobs for all users?,Medium
+stackoverflow,How do I print to stderr in Python?,Medium
+stackoverflow,How do I limit the number of rows returned by an Oracle query after ordering?,Medium
+stackoverflow,How to remove an element from a list by index,Medium
+stackoverflow,How to iterate over a dictionary?,Medium
+stackoverflow,Strip all non-numeric characters from string in JavaScript,Low
+stackoverflow,What is a serialVersionUID and why should I use it?,Medium
+stackoverflow,How to retrieve a module's path?,Medium
+stackoverflow,How to specify the private SSH-key to use when executing shell command on Git?,Medium
+stackoverflow,How can I rollback a specific migration?,Medium
+stackoverflow,How do I vertically center text with CSS?,Medium
+stackoverflow,Getting Chrome to accept a self-signed localhost certificate,Low
+stackoverflow,'Must Override a Superclass Method' Errors after importing a project into Eclipse,High
+stackoverflow,How to copy to clipboard in Vim?,Medium
+stackoverflow,How do I iterate over the words of a string?,Medium
+stackoverflow,Convert a Unix timestamp to time in JavaScript,Medium
+stackoverflow,"What does the ""~"" (tilde/squiggle/twiddle) CSS selector mean?",Medium
+stackoverflow,"If Python is interpreted, what are .pyc files?",Low
+stackoverflow,Get size of all tables in database,Low
+stackoverflow,How do I write JSON data to a file?,Medium
+stackoverflow,How can I validate an email address using a regular expression?,Medium
+stackoverflow,\d less efficient than [0-9],Low
+stackoverflow,What is the difference between CMD and ENTRYPOINT in a Dockerfile?,Medium
+stackoverflow,"AddTransient, AddScoped and AddSingleton Services Differences",Low
+stackoverflow,How do I make a redirect in PHP?,Medium
+stackoverflow,Remove all child elements of a DOM node in JavaScript,Low
+stackoverflow,"""Least Astonishment"" and the Mutable Default Argument",Medium
+stackoverflow,Ukkonen's suffix tree algorithm in plain English,High
+stackoverflow,"What is the difference between public, protected, package-private and private in Java?",Medium
+stackoverflow,How to convert UTF-8 byte[] to string,Medium
+stackoverflow,What is the difference between match_parent and fill_parent?,Medium
+stackoverflow,What is the difference between @staticmethod and @classmethod in Python?,Medium
+stackoverflow,"Why is ""1000000000000000 in range(1000000000000001)"" so fast in Python 3?",Medium
+stackoverflow,Convert tabs to spaces in Notepad++,Medium
+stackoverflow,What is the difference between String.slice and String.substring?,Medium
+stackoverflow,How to use glob() to find files recursively?,Medium
+stackoverflow,What is the difference between angular-route and angular-ui-router?,Medium
+stackoverflow,How to get full path of a file?,Medium
+stackoverflow,How to access the correct `this` inside a callback,Medium
+stackoverflow,How to get the browser viewport dimensions?,Medium
+stackoverflow,How can I call one shell script from another shell script?,Medium
+stackoverflow,Why not inherit from List<T>?,Low
+stackoverflow,"What is the difference between a URI, a URL, and a URN?",Medium
+stackoverflow,How do I expand the output display to see more columns of a Pandas DataFrame?,Medium
+stackoverflow,How to get the client IP address in PHP,Medium
+stackoverflow,How do I get file creation and modification date/times?,Medium
+stackoverflow,"How can I hide specified files/directories (e.g., .git) in the sidebar? (Visual Studio Code)",Medium
+stackoverflow,How can I get query string values in JavaScript?,Medium
+stackoverflow,PHP random string generator,Low
+stackoverflow,How do I check if an object has a key in JavaScript?,Medium
+stackoverflow,What are the new features in C++17?,Low
+stackoverflow,How to Right-align flex item?,Medium
+stackoverflow,Writing to files in Node.js,Low
+stackoverflow,How to check if a value exists in an array in Ruby,Medium
+stackoverflow,Failed to load the JNI shared Library (JDK),High
+stackoverflow,Get unique values from a list in python,Low
+stackoverflow,Loop (for each) over an array in JavaScript,Medium
+stackoverflow,What is an undefined reference/unresolved external symbol error and how do I fix it?,High
+stackoverflow,.prop() vs .attr(),Low
+stackoverflow,Regular Expressions: Is there an AND operator?,Low
+stackoverflow,"How can I get jQuery to perform a synchronous, rather than asynchronous, Ajax request?",Medium
+stackoverflow,What does ** (double star/asterisk) and * (star/asterisk) do for parameters?,Medium
+stackoverflow,When should you use a class vs a struct in C++?,Low
+stackoverflow,Make an existing Git branch track a remote branch?,Medium
+stackoverflow,How can I merge two commits into one if I already started rebase?,Medium
+stackoverflow,How can I use a not:first-child selector?,Medium
+stackoverflow,Cleaning up old remote git branches,Low
+stackoverflow,Ignoring directories in Git repositories on Windows,Low
+stackoverflow,How to get the current working directory in Java?,Medium
+stackoverflow,Why use Redux over Facebook Flux?,Low
+stackoverflow,You have not concluded your merge (MERGE_HEAD exists),Low
+stackoverflow,How to check a not-defined variable in JavaScript,Medium
+stackoverflow,How can I open a URL in Android's web browser from my application?,Medium
+stackoverflow,How to allow only numeric (0-9) in HTML  inputbox using jQuery?,Medium
+stackoverflow,Ignoring any 'bin' directory on a git project,Low
+stackoverflow,"Error ""ImportError: No module named requests""",High
+stackoverflow,What are C++ functors and their uses?,Low
+stackoverflow,How to remove item from array by value?,Medium
+stackoverflow,Change column type in pandas,Low
+stackoverflow,How to make links in a TextView clickable,Medium
+stackoverflow,How to reload .bashrc settings without logging out and back in again?,Medium
+stackoverflow,"What is a ""static class"" in Java?",Medium
+stackoverflow,Getting a list of all subdirectories in the current directory,Low
+stackoverflow,Convert a PHP object to an associative array,Medium
+stackoverflow,How can I remove/delete a large file from the commit history in the Git repository?,Medium
+stackoverflow,Relative imports for the billionth time,Low
+stackoverflow,Pretty Git branch graphs,Low
+stackoverflow,Echo newline in Bash prints literal \n,Medium
+stackoverflow,Add a new element to an array without specifying the index in Bash,Low
+stackoverflow,"What's the difference between git reset --mixed, --soft, and --hard?",Medium
+stackoverflow,How do I get the Git commit count?,Medium
+stackoverflow,"Detecting request type in PHP (GET, POST, PUT or DELETE)",Low
+stackoverflow,"Why does ++[[]][+[]]+[+[]] return the string ""10""?",Medium
+stackoverflow,Should I use the datetime or timestamp data type in MySQL?,Medium
+stackoverflow,How can I generate an MD5 hash in Java?,Medium
+stackoverflow,"If a folder does not exist, create it",Low
+stackoverflow,Remove trailing spaces automatically or with a shortcut,Low
+stackoverflow,jQuery's jquery-1.10.2.min.map is triggering a 404 (Not Found),Low
+stackoverflow,Scroll to bottom of div?,Low
+stackoverflow,Sort (order) data frame rows by multiple columns,Low
+stackoverflow,What is the --save option for npm install?,Medium
+stackoverflow,"In a Git repository, how to properly rename a directory?",Medium
+stackoverflow,How do I split a list into equally-sized chunks?,Medium
+stackoverflow,"Android ""Only the original thread that created a view hierarchy can touch its views.""",Low
+stackoverflow,How to switch databases in psql?,Medium
+stackoverflow,How can I open a Bootstrap modal window using jQuery?,Medium
+stackoverflow,How to reformat JSON in Notepad++,Medium
+stackoverflow,Why should C++ programmers minimize use of 'new'?,Low
+stackoverflow,How to cherry-pick multiple commits,Medium
+stackoverflow,When to use virtual destructors?,Medium
+stackoverflow,Make a dictionary (dict) from separate lists of keys and values,Low
+stackoverflow,"What does "" 2>&1 "" mean?",Medium
+stackoverflow,How to concatenate (join) items in a list to a single string,Medium
+stackoverflow,List comprehension vs map,Low
+stackoverflow,How to do case insensitive search in Vim,Medium
+stackoverflow,How to manually send HTTP POST requests from Firefox or Chrome browser,Medium
+stackoverflow,How to efficiently concatenate strings in go,Medium
+stackoverflow,How can I determine equality for two JavaScript objects?,Medium
+stackoverflow,"How to center a ""position: absolute"" element",Medium
+stackoverflow,How to decide when to use Node.js?,Medium
+stackoverflow,"Hide scroll bar, but while still being able to scroll",Low
+stackoverflow,An invalid form control with name='' is not focusable,Low
+stackoverflow,Reading settings from app.config or web.config in .NET,Low
+stackoverflow,How do I find out which process is listening on a TCP or UDP port on Windows?,Medium
+stackoverflow,What's the simplest way to print a Java array?,Low
+stackoverflow,Search all of Git history for a string,Low
+stackoverflow,How can I git stash a specific file?,Medium
+stackoverflow,"What is the difference between venv, pyvenv, pyenv, virtualenv, virtualenvwrapper, pipenv, etc?",Medium
+stackoverflow,How to add a class to an HTML element with JavaScript?,Medium
+stackoverflow,When do you use Git rebase instead of Git merge?,Low
+stackoverflow,HTML text input allow only numeric input,Low
+stackoverflow,How to undo a git merge with conflicts,Medium
+stackoverflow,Swift Beta performance: sorting arrays,Medium
+stackoverflow,SQL select only rows with max value on a column,Low
+stackoverflow,What is event bubbling and capturing?,Medium
+stackoverflow,HTTP GET request in JavaScript,Low
+stackoverflow,How to Configure Multiple SSH Private Keys for Different Servers Efficiently?,Medium
+stackoverflow,How can I disable the UITableView selection?,Medium
+stackoverflow,How to pass all arguments passed to my Bash script to a function of mine?,Medium
+stackoverflow,How do I recover a dropped stash in Git?,Medium
+stackoverflow,How do I force my .NET application to run as administrator?,Medium
+stackoverflow,How do I make a placeholder for a 'select' box?,Medium
+stackoverflow,How to download Xcode DMG or XIP file?,Medium
+stackoverflow,What characters can be used for up/down triangle (arrow without stem) for display in HTML?,Low
+stackoverflow,How to apply CSS to iframe?,Medium
+stackoverflow,"Do a ""git export"" (like ""svn export"")?",Low
+stackoverflow,How to set focus on an input field after rendering?,Medium
+stackoverflow,Which JSON content type do I use?,Medium
+stackoverflow,Sort ArrayList of custom Objects by property,Low
+stackoverflow,"With arrays, why is it the case that a[5] == 5[a]?",Medium
+stackoverflow,How can I make a UITextField move up when the keyboard is present - on starting to edit?,Medium
+stackoverflow,How to change the remote repository for a git submodule?,Medium
+stackoverflow,"What's the difference between faking, mocking, and stubbing?",Medium
+stackoverflow,Metadata file '.dll' could not be found,Low
+stackoverflow,Why doesn't RecyclerView have onItemClickListener()?,Medium
+stackoverflow,echo that outputs to stderr,Low
+stackoverflow,Read a file line by line assigning the value to a variable,Low
+stackoverflow,Why would a JavaScript variable start with a dollar sign?,Low
+stackoverflow,How can I update each dependency in package.json to the latest version?,Medium
+stackoverflow,How do I clone a single branch in Git?,Medium
+stackoverflow,How to redirect and append both standard output and standard error to a file with Bash,High
+stackoverflow,How do I merge two dictionaries in a single expression in Python?,Medium
+stackoverflow,HTML: Valid id attribute values?,Low
+stackoverflow,How to copy a dictionary and only edit the copy,Medium
+stackoverflow,Remove a git commit which has not been pushed,Low
+stackoverflow,How can I delete all of my Git stashes at once?,Medium
+stackoverflow,"Styling an <input type=""file""> button",Low
+stackoverflow,How can I concatenate two arrays in Java?,Medium
+stackoverflow,Why use getters and setters/accessors?,Low
+stackoverflow,What is the difference between String and string in C#?,Medium
+stackoverflow,Get all unique values in a JavaScript array (remove duplicates),Low
+stackoverflow,What is the difference between substr and substring?,Medium
+stackoverflow,jQuery document.createElement equivalent?,Low
+stackoverflow,"Saving UTF-8 texts with json.dumps as UTF-8, not as a \u escape sequence",Low
+stackoverflow,Getting a random value from a JavaScript array,Low
+stackoverflow,What's the difference between UTF-8 and UTF-8 with BOM?,Medium
+stackoverflow,How do I modify a specific commit?,Medium
+stackoverflow,URL encoding the space character: + or %20?,Low
+stackoverflow,StringBuilder vs String concatenation in toString() in Java,Low
+stackoverflow,How do I commit case-sensitive only filename changes in Git?,Medium
+stackoverflow,What's the difference between the 'ref' and 'out' keywords?,Medium
+stackoverflow,How to get just one file from another branch,Medium
+stackoverflow,Check if a given key already exists in a dictionary,Low
+stackoverflow,How to convert an instance of std::string to lower case,Medium
+stackoverflow,"Error message ""No exports were found that match the constraint contract name""",High
+stackoverflow,How to configure port for a Spring Boot application,Medium
+stackoverflow,How to find the sum of an array of numbers,Medium
+stackoverflow,Should CSS always precede JavaScript?,Low
+stackoverflow,Convert JS object to JSON string,Medium
+stackoverflow,What exactly is a Maven Snapshot and why do we need it?,Low
+stackoverflow,Why does changing 0.1f to 0 slow down performance by 10x?,Medium
+stackoverflow,Do the parentheses after the type name make a difference with new?,Low
+stackoverflow,What is the difference between const and readonly in C#?,Medium
+stackoverflow,How can I assign a multiline string literal to a variable?,Medium
+stackoverflow,What file uses .md extension and how should I edit them?,Low
+stackoverflow,Defining a variable with or without export,Low
+stackoverflow,Calling the base constructor in C#,Low
+stackoverflow,Length of a JavaScript object,Medium
+stackoverflow,Click through div to underlying elements,Low
+stackoverflow,How do I trim whitespace from a string?,Medium
+stackoverflow,Fetch: POST JSON data,Low
+stackoverflow,"Node.js/Windows error: ENOENT, stat 'C:\Users\RT\AppData\Roaming\npm'",High
+stackoverflow,How to manage startActivityForResult on Android,Medium
+stackoverflow,How do I convert a string to a number in PHP?,Medium
+stackoverflow,Comparing Java enum members: == or equals()?,Low
+stackoverflow,What's the difference between utf8_general_ci and utf8_unicode_ci?,Medium
+stackoverflow,How to remove old Docker containers,Medium
+stackoverflow,How do I concatenate strings and variables in PowerShell?,Medium
+stackoverflow,How do I return dictionary keys as a list in Python?,Medium
+stackoverflow,ssh remote host identification has changed,Low
+stackoverflow,Difference between 'struct' and 'typedef struct' in C++?,Medium
+stackoverflow,How to effectively work with multiple files in Vim,Medium
+stackoverflow,Can't find the 'libpq-fe.h header when trying to install pg gem,Low
+stackoverflow,Removing duplicates in lists,Low
+stackoverflow,pg_config executable not found,Low
+stackoverflow,Convert bytes to a string in Python 3,Medium
+stackoverflow,How do you push a tag to a remote repository using Git?,Medium
+stackoverflow,The definitive guide to form-based website authentication,Medium
+stackoverflow,"How to pass ""Null"" (a real surname!) to a SOAP web service in ActionScript 3",Medium
+stackoverflow,How to install Java 8 on Mac,Medium
+stackoverflow,Convert a string to an enum in C#,Medium
+stackoverflow,How do I pass a variable by reference?,Medium
+stackoverflow,How do I refresh a page using JavaScript?,Medium
+stackoverflow,"What does the ""at"" (@) symbol do in Python?",Medium
+stackoverflow,Query for documents where array size is greater than 1,Low
+stackoverflow,How can I iterate over rows in a Pandas DataFrame?,Medium
+stackoverflow,JavaScript post request like a form submit,Low
+stackoverflow,Writing a pandas DataFrame to CSV file,Low
+stackoverflow,What is the difference between a port and a socket?,Medium
+stackoverflow,Which @NotNull Java annotation should I use?,Low
+stackoverflow,React-router URLs don't work when refreshing or writing manually,Low
+stackoverflow,How do I split a string on a delimiter in Bash?,Medium
+stackoverflow,A potentially dangerous Request.Form value was detected from the client,Low
+stackoverflow,How do CSS triangles work?,Low
+stackoverflow,"How do I remove duplicates from a list, while preserving order?",Medium
+stackoverflow,if/else in a list comprehension,Low
+stackoverflow,What are the special dollar sign shell variables?,Low
+stackoverflow,Reference Guide: What does this symbol mean in PHP? (PHP Syntax),Medium
+stackoverflow,How to make a div 100% height of the browser window,Medium
+stackoverflow,How do I generate a random integer in C#?,Medium
+stackoverflow,Determine Whether Two Date Ranges Overlap,Low
+stackoverflow,How can I format a number with commas as thousands separators?,Medium
+stackoverflow,How to see normal stdout/stderr console print() output from code during a pytest run?,Medium
+stackoverflow,How to add a new column to an existing DataFrame,Medium
+stackoverflow,Checking whether a variable is an integer or not,Low
+stackoverflow,How can I convert a string to boolean in JavaScript?,Medium
+stackoverflow,How do I pass command line arguments to a Node.js program and receive them?,Medium
+stackoverflow,How do you merge two Git repositories?,Low
+stackoverflow,How do I get a consistent byte representation of strings in C# without manually specifying an encoding?,Medium
+stackoverflow,What is a smart pointer and when should I use one?,Medium
+stackoverflow,How to convert a Drawable to a Bitmap?,Medium
+stackoverflow,Can I use a global (user-profile-scope) .gitignore file?,Low
+stackoverflow,Remove element by id,Low
+stackoverflow,How can I initialize all members of an array to the same value?,Medium
+stackoverflow,How do I search for files in Visual Studio Code?,Medium
+stackoverflow,Best way to repeat a character in C#,Low
+stackoverflow,Calculate RSA key fingerprint,Low
+stackoverflow,"How do I force ""git pull"" to overwrite local files?",Medium
+stackoverflow,"Is there a ""null coalescing"" operator in JavaScript?",Low
+stackoverflow,How can I add local JAR files to a Maven project?,Medium
+stackoverflow,How can I revert multiple Git commits?,Medium
+stackoverflow,"From an array of objects, extract value of a property as array",Low
+stackoverflow,How can I generate a Git patch for a specific commit?,Medium
+stackoverflow,Prevent users from submitting a form by hitting Enter,Low
